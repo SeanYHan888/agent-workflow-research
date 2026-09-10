@@ -1,0 +1,6 @@
+Terminal practice
+
+Left pane: agent conversation later.
+Right pane: your shell, checks, and inspection.
+
+Both panes should use this directory.
