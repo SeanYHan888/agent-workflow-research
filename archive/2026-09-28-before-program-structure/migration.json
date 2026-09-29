@@ -1,0 +1,13 @@
+{
+  "autonomous-job-pipeline-plan.md": "research/autonomous-job-pipeline-plan.md",
+  "listen-phirst-dashboard-pilot.md": "research/listen-phirst-dashboard-pilot.md",
+  "claude-github-automation-research.md": "research/claude-github-automation-research.md",
+  "claude-tag-workflow-investigation.md": "research/claude-tag-workflow-investigation.md",
+  "omp-orca.md": "research/omp-orca.md",
+  "workflow-design.md": "research/workflow-design.md",
+  "expanded-research-plan.md": "materials/advanced-study.md",
+  "learning-resources-research.md": "materials/resource-catalog.md",
+  "material-versions.md": "materials/versions.md",
+  "ood-material-assessment.md": "materials/ood-assessment.md",
+  "typescript-plugin-lab.md": "course/projects/typescript-plugin-lab.md"
+}

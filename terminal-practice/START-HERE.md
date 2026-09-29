@@ -83,4 +83,4 @@ The next lesson is [persistent terminals with Herdr](HERDR.md). A separate **Her
 - [cmux shortcuts](https://cmux.com/docs/keyboard-shortcuts)
 - [cmux agent hooks](https://raw.githubusercontent.com/manaflow-ai/cmux/main/docs/agent-hooks.md)
 
-The one-time `configure-practice.sh` file was used to name the current cmux panes. Its surface references are temporary; do not reuse it as a general launcher.
+The one-time pane-naming script used temporary cmux surface references. It has been [retired as a text record](../archive/2026-09-28-course-cleanup/retired/terminal-practice/configure-practice.sh.txt); do not reuse those old IDs as a launcher.

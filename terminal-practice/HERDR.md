@@ -1,8 +1,10 @@
 # Lesson 3: persistent terminals with Herdr
 
-Verified locally on 2026-09-09 with Herdr 0.8.0 inside cmux.
+Original exercises verified on 2026-09-09 with Herdr 0.8.0 inside cmux.
 
-## Current setup
+**Update, 2026-09-10:** client and named `terminal-practice` server are now 0.9.0. The user approved stopping the old pane processes for the restart. The server is running headlessly; attach with `herdr --session terminal-practice`. Layout/UI and these key exercises need a fresh check; the old shell PID and in-memory marker are no longer live. See [version evidence](../materials/versions.md).
+
+## Previously verified setup
 
 Select **Herdr Practice** in cmux. This workspace contains one outer terminal running `herdr --session terminal-practice`. Herdr contains two inner shell panes, both in this directory. The left pane is for the future agent; the right is for checks. No coding agent has been launched.
 

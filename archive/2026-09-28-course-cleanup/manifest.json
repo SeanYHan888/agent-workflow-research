@@ -1,0 +1,44 @@
+{
+  "before": {
+    "README.md": "2fb0fdee67a4594db9c3d84a144a501cab18eb672650cc160a0e9c88d52fb317",
+    "PROJECT-CONTEXT.md": "067d48cdf1f2e4f24e6f951f8cb9043e05a9a1d146cce46b7de95743cb920daa",
+    "materials/README.md": "990610615bbe20b2ffe1a26556a8b5f176c5f148669769a5d66409911bd249d2",
+    "teaching/README.md": "ba93d7fa29b9ce187cc5eedce5e07e04ed500294a9fc12fd00a2b5f72158dae6",
+    "teaching/SESSION-01.md": "c179ddcba4e50b0089984bc223c8004a08d05fdebf15881084034ea3e5f643ef",
+    "teaching/handouts/01 Material Shelf.md": "03e377dac61de6d8a9b20ca0392390ec0076deeca265b6c004edce3a425e6755",
+    "teaching/handouts/02 Study Route.md": "718d76e38085e8ad33378fd5ead8b918d85d55400f54484af5f7b4767e793f23",
+    "terminal-practice/START-HERE.md": "6a50e9492e8b627b056b4dda73e00ff8f4ffff72881616aff60ec4c2dd4aaac3",
+    "teaching/DECISIONS.md": "abef35920a89b7091ee03b0892c9f65baacbe2e37695bde5d0e1e8468cfead2b"
+  },
+  "retired": {
+    "listen-phirst-dashboard-pilot.md": {
+      "archive": "retired/listen-phirst-dashboard-pilot.md",
+      "sha256": "917afa3a536770ef2f754113345b3a439a03c34481ede442e2485972029a4da5"
+    },
+    "expanded-research-plan.md": {
+      "archive": "retired/expanded-research-plan.md",
+      "sha256": "627a4fc02bab5a9fbea00c8417dbd71b8dfae472eb1426fb270255ec2bf64111"
+    },
+    "autonomous-job-pipeline-plan.md": {
+      "archive": "retired/autonomous-job-pipeline-plan.md",
+      "sha256": "e79ff1f7cecd3cc5221b2ea56a231f20db266516533420a77e494b7c1fa93299"
+    },
+    "claude-github-automation-research.md": {
+      "archive": "retired/claude-github-automation-research.md",
+      "sha256": "05d43bef0538718c0913b7d8da31672e6af6c0bbf9a35abfa05e57eecb876bf4"
+    },
+    "claude-tag-workflow-investigation.md": {
+      "archive": "retired/claude-tag-workflow-investigation.md",
+      "sha256": "6dad84b7dba66ff25222a2eaf9b9fe4340e8a72e1698be678e131329939617b7"
+    },
+    "terminal-practice/configure-practice.sh": {
+      "archive": "retired/terminal-practice/configure-practice.sh.txt",
+      "sha256": "ead09bd8c887c3d5c69cd542c215600a5bc5f25dd7a3f0b16d6be628d35b1e6f"
+    }
+  },
+  "vault_before": {
+    "00 Start Here.md": "41701008e6d457f32366c75f144cf228699c1cb6c09fdbbf5738f91927350ab0",
+    "01 Material Shelf.md": "08e113001dbf793bab51de50188eb5e5ad9f2580d4be9541515d4cd71d57ade7",
+    "02 Study Route.md": "4d8ed30ce11e9ea812274b4fd5a30a761bb458c741a0d05de54f1c0ae58b98a0"
+  }
+}
