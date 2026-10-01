@@ -6,7 +6,7 @@ tags:
 ---
 # The materials we will use
 
-Current program mapping: [the classroom material shelf](</Users/seanmacbook/Projects/agent-workflow-research/materials/README.md>) assigns these resources to M1–M10 and adds OS/network/container/distributed-system selections. Older Section 1–6 labels below identify foundation readings, not an independent schedule. All study uses the charter's shared 15-hour budget.
+Current program mapping: [the classroom material shelf](</Users/seanmacbook/Projects/agent-workflow-research/materials/README.md>) assigns these resources to M1–M12 and adds OS/network/container/distributed-system selections. Older Section 1–6 labels below identify foundation readings, not an independent schedule. All study uses the charter's shared 15-hour budget.
 
 
 [[Notes/Coding Agent Course/00 Start Here|Start Here]] · [[Notes/Coding Agent Course/02 Study Route|Study route]]
@@ -54,7 +54,7 @@ learn-claude-code is a third-party teaching implementation, not Anthropic's inte
 
 **Section 4 — mini-swe-agent, 90 minutes:** before the larger Tau/Pi source tour, trace `run → step → query → execute_actions` across the model and environment boundaries. Explain who owns messages, executes a command, formats its observation and signals completion. Draw those responsibilities and map them to your own TS agent; use this as preparation for the Pi extension.
 
-These replace part of the existing comparison/review blocks: Section 3 remains 26 hours, Section 4 remains 20, and the course remains 160. Boot.dev is still the language curriculum; the completed opening section stays complete. Read one path in each project; continue building the same TypeScript agent. No live provider run is needed for these reading checkpoints.
+Historical September 15 allocation: these replaced comparison/review time within the then-current 160-hour foundation forecast. Current scope and hours are owned by the [workload forecast](</Users/seanmacbook/Projects/agent-workflow-research/course/WORKLOAD.md>), superseding those old section totals. Boot.dev is still the language curriculum; the completed opening section stays complete. Read one path in each project; continue building the same TypeScript agent. No live provider run is needed for these reading checkpoints.
 
 Readings are pinned to nanocode `b009d3dbedf14` and mini-swe-agent `04d809ceab9d`, inspected September 15. mini-swe-agent is v2: the selected LiteLLM adapter uses tool calling. Use the pinned code when comparing protocols. These two repositories are online references; the seven existing local source links are unchanged. Full source selections and limitations are in the classroom's [source-lab notes](file:///Users/seanmacbook/Projects/agent-workflow-research/materials/resource-catalog.md#nanocode-and-mini-swe-agent--added-september-15-2026).
 
@@ -109,3 +109,15 @@ The [expanded study plan](</Users/seanmacbook/Projects/agent-workflow-research/m
 Choose the next eligible lesson from current project evidence. The subagent course can support an agent-boundary question; inference begins when its prerequisite check and allocated primary module permit it. Keep one primary module within the shared 15-hour budget. Existing annotations, task states and source-reading pins remain authoritative for work already recorded.
 
 The [university integration map](</Users/seanmacbook/Projects/agent-workflow-research/materials/university-course-integration.md>) adds selected MIT theory and Stanford agent-design/evaluation material within the existing milestones. The [materials index](</Users/seanmacbook/Projects/agent-workflow-research/materials/README.md>) also routes to M11 engineering practice and M7 RabbitMQ/Kafka. Use it to choose one reading path instead of starting every listed course.
+
+## Systems foundations — September 30, 2026
+
+Required M12 adds Rust and small-compiler construction. M5 deepens OS/network/security mechanisms; M7 adds local storage and transaction foundations. Use the [source map](</Users/seanmacbook/Projects/agent-workflow-research/materials/systems-reading-map.md>) with the [criteria and bounded experiments](</Users/seanmacbook/Projects/agent-workflow-research/course/modules/systems-foundations.md>). Python native extensions and embedded/no_std remain electives. No new dates or completion claims follow from inclusion.
+
+## Core foundations — September 30, 2026
+
+Required M13 computer organization, M14 data structures/algorithms and M15 discrete mathematics use selected Nand2Tetris/CS:APP, MIT 6.006 and MIT 6.042J readings. The [criteria and primary-source map](</Users/seanmacbook/Projects/agent-workflow-research/course/modules/core-foundations.md>) define assessed depth, prerequisites and the FP/OOP/system-design coverage audit. Full source-course completion is optional; prior demonstrated knowledge is credited.
+
+## Programming paradigms and design — September 30, 2026
+
+Required [M16 P1–P4 and source selections](</Users/seanmacbook/Projects/agent-workflow-research/course/modules/programming-paradigms.md>) cover FP, OOD, type-based modeling and one shared comparison. Use selected official Python, TypeScript and Rust readings. Grokking OOD remains an optional resource; its optional status no longer means OOD outcomes are optional. Effect adoption and full pattern catalogs remain elective.

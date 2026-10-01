@@ -1,5 +1,7 @@
 # Conference break and restart — schedule proposal
 
+**Superseded September 30:** The student authorized the [relocation/COLM reschedule](2026-09-30-RELOCATION-RESCHEDULE.md) and reconfirmed October 12 return. The JS/Node and terminal restart windows below are applied; successors were moved to later provisional dates rather than cleared. This document preserves the original proposal and first-two-week teaching allocation; its pending-approval wording and unscheduled-successor table are historical. Live project properties own the current dates.
+
 Prepared September 28, 2026. The student confirmed **October 5–11** as the conference break and **October 12** as the return to required study. The one-week break is authorized. The larger calendar repair below is a concrete proposal pending agreement because it changes more than seven days of existing targets. Once applied, owning Obsidian properties take precedence over this dated decision record.
 
 ## Calendar impact

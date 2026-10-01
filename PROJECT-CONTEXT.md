@@ -1,6 +1,6 @@
 # Course continuation context
 
-Current program: **Distributed AI Agent Systems**, curriculum v1.3. Read the [charter](course/CHARTER.md) for authority/budget and [roadmap](ROADMAP.md) for milestones before teaching or changing scope. Use the [materials index](materials/README.md) to choose one primary source. The teacher sets essential milestones; the student can explore and request deliberate changes.
+Current program: **Distributed AI Agent Systems**, curriculum v1.6. Read the [charter](course/CHARTER.md) for authority/budget and [roadmap](ROADMAP.md) for milestones before teaching or changing scope. Use the [materials index](materials/README.md) to choose one primary source. The teacher sets essential milestones; the student can explore and request deliberate changes.
 
 ## Resume from live evidence
 
@@ -8,9 +8,15 @@ The [Obsidian course overview](</Users/seanmacbook/Library/Mobile Documents/iClo
 
 The original tool-cycle section is archived with completion evidence. [JS/Node](</Users/seanmacbook/Library/Mobile Documents/iCloud~md~obsidian/Documents/obsidian-vault/Projects/Active/terminal-agent-02-javascript-node.md>) was verified as `now` on September 28. Read its latest progress before selecting a lesson. Do not restart credited tool-cycle/Variables work or infer progress from dates, prepared material or agent-generated code.
 
-Budget: **15h/week** (10 core/labs, 3 project, 2 exploration), one primary module and one active course project. The [workload forecast](course/WORKLOAD.md) supplies an initial 342–543 directed-hour range, or 32–51 active study weeks with a provisional revision allowance. This is not a finish-date commitment. The confirmed conference break is October 5–11, with required study returning October 12. The [calendar proposal](teaching/2026-09-28-SCHEDULE-REVIEW.md) and [restart diagnostic](teaching/RESTART-DIAGNOSTIC.md) are ready; the broader date reset is awaiting student agreement. No diagnostic has yet been administered. Split oversized execution scope before activation, preserving completion goals and evidence.
+Budget: **15h/week** (10 core/labs, 3 project, 2 exploration), one primary module and one active course project. The [workload forecast](course/WORKLOAD.md) supplies an initial 542–841 directed-hour range, or 51–78 active study weeks with a provisional revision allowance. This is not a finish-date commitment. The confirmed relocation/COLM break is September 28–October 11, with required study returning October 12. The [September 30 reschedule](teaching/2026-09-30-RELOCATION-RESCHEDULE.md) applies the authorized date reset to all eight dated remaining projects. JS/Node is October 12–November 1 and the terminal pilot October 12–25 within the project allocation; six successors have later provisional windows. The [restart diagnostic](teaching/RESTART-DIAGNOSTIC.md) begins the first session. No diagnostic has yet been administered. Split oversized execution scope before activation, preserving completion goals and evidence.
 
 ## Reach details when needed
+
+- [Core foundations](course/modules/core-foundations.md), accepted September 30: required M13 computer organization, M14 data structures/algorithms and M15 discrete mathematics. F0 evidence/budget moves from M5 into M13. The earlier FP/OOP coverage gaps are now addressed by the explicitly approved M16 addition below.
+
+- [Programming paradigms and design](course/modules/programming-paradigms.md): required M16 P1–P4 functional programming, OOD, type-based modeling and one shared design comparison. TS is the default comparison language; a small Rust transfer follows R1. Added 24–36h, no new dates or activated projects.
+
+- [Systems foundations](course/modules/systems-foundations.md), accepted September 30: required M12 Rust/compiler construction, M5 OS/network/security depth, and M7 local storage. Rust reading overlap moves out of M4; retain all other core outcomes. Python extensions and embedded systems are electives. This is approved scope, not activated projects or changed dates; split practical slices before scheduling.
 
 - [Engineering practice](course/modules/engineering-practice.md): M11 inspection/recovery begins with M2, delivery/testing/review through M3/M4. [Broker study](course/modules/message-brokers.md): required RabbitMQ/Kafka within M7.
 - [University integration](materials/university-course-integration.md): selected MIT theory and Stanford agent design/evaluation inside existing milestones; full university courses/lab sequences are optional. Recheck Stanford's future public releases when assigning them.

@@ -1,0 +1,86 @@
+[
+  {
+    "snapshot": "vault/Projects/Active/agent-harness-instructions.md",
+    "sha256": "8991e5887dca20ff5deecd2338d6af8f30b6464b6639fbb5d84f782be532e1cf"
+  },
+  {
+    "snapshot": "vault/Projects/Active/agent-magpie-trial.md",
+    "sha256": "111a42b8b0daa62401acdf1cca9351133bceabf6b60df0d05c3c87f0d62d91bc"
+  },
+  {
+    "snapshot": "vault/Projects/Active/agent-rust-first-cli.md",
+    "sha256": "23be1f2d0d082c6a46342855a75cf3e4bc3c75a18742158e72cc3eb84e88716b"
+  },
+  {
+    "snapshot": "vault/Projects/Active/gui-human-in-the-loop.md",
+    "sha256": "e2e8c8397018932f7ddba2637d9b5bdd90130c5f042b5374adcaae43dcc1be16"
+  },
+  {
+    "snapshot": "vault/Projects/Active/multi-agent-human-review.md",
+    "sha256": "221959f1812fc709efbe16da28b30038502425fdd5ea4e19ef74a0fd00b4f53f"
+  },
+  {
+    "snapshot": "vault/Projects/Active/terminal-agent-02-javascript-node.md",
+    "sha256": "7d64924b34d102b0088b4cc8f5e71b56f50968e941bda58ebb175280e10f29ed"
+  },
+  {
+    "snapshot": "vault/Projects/Active/terminal-agent-03-typescript-agent.md",
+    "sha256": "d9e637b7852490a82b9f8b8b8c5d812ad6c1307619dff6bd97065905fec833e1"
+  },
+  {
+    "snapshot": "vault/Projects/Active/terminal-agent-04-pi-extension.md",
+    "sha256": "539a224247fc3b3468c94fe86bf5a480bd629941c971472c733408b185d8fe68"
+  },
+  {
+    "snapshot": "vault/Projects/Active/terminal-agent-05-worker-adapter.md",
+    "sha256": "35fb37284f5df78e442263f6f253ea614ee430c61bd186abf05168255512ac6e"
+  },
+  {
+    "snapshot": "vault/Projects/Active/terminal-agent-06-linux-coordination.md",
+    "sha256": "d56f70e007513673cc34a202c7dbb9f77f29dba3bdd905ffb05e1f922c6b7399"
+  },
+  {
+    "snapshot": "vault/Projects/Active/terminal-human-in-the-loop.md",
+    "sha256": "45835fc33bc1c842132c41fdd9a8a858c384e0105715157ce81964fbbebf119e"
+  },
+  {
+    "snapshot": "vault/Projects/Active/ts-panel-01-strict-flags.md",
+    "sha256": "33ed124022e5fe22d763601fc6bee539db38bfba7bbec52ad313b2091c9e40dd"
+  },
+  {
+    "snapshot": "vault/Notes/Coding Agent Course/00 Start Here.md",
+    "sha256": "35a53e106307416c9b428acff17cb9bd92b4421f38ef2e7fd2216482456e63b2"
+  },
+  {
+    "snapshot": "vault/Notes/Coding Agent Course/02 Study Route.md",
+    "sha256": "0df57878d6758b5db89bfa66ff140ea35b63ed6349c1041afd94f108716114ad"
+  },
+  {
+    "snapshot": "repo/PROJECT-CONTEXT.md",
+    "sha256": "a9cb95711e2fbb2306a527804c10c9ff6e8aba4688f2fea0f8fa5a8b7b27808b"
+  },
+  {
+    "snapshot": "repo/ROADMAP.md",
+    "sha256": "66eae9b74abb33456c14b3e2c6e8d8a09f642047f158c7188b9e8d561d3783bf"
+  },
+  {
+    "snapshot": "repo/teaching/DECISIONS.md",
+    "sha256": "bcad2c7aaf55357b7f8d26cf3ca1d44ddf3adc0e666fa34071f45f03d1e2c82a"
+  },
+  {
+    "snapshot": "repo/teaching/2026-09-28-SCHEDULE-REVIEW.md",
+    "sha256": "950a2c688cfc2fc9fec5cf0ab4346db552fff7e373f0ee7aa477f29e72aea592"
+  },
+  {
+    "snapshot": "repo/teaching/RESTART-DIAGNOSTIC.md",
+    "sha256": "7b9f9f0e082cdc3913352cc4c153d9c3e6bf78f5a36e9283c31c8e94eefb07d7"
+  },
+  {
+    "snapshot": "repo/teaching/handouts/02 Study Route.md",
+    "sha256": "b95075a226210b4aaf21e85655a4f63c31e38be6be34252c4f0db1bd7ab8f25f"
+  },
+  {
+    "snapshot": "repo/course/WORKLOAD.md",
+    "sha256": "18adc80f947a7faf371169214c6d777d57432bd0a372b851a7a33369776cb6e2"
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "source": "/Users/seanmacbook/Projects/agent-workflow-research/ROADMAP.md",
+    "snapshot": "repo/ROADMAP.md",
+    "sha256": "09ae3088ba8a4876747bddf0271018e632ae21b6eab112f7a6d448de47c50a65"
+  },
+  {
+    "source": "/Users/seanmacbook/Projects/agent-workflow-research/PROJECT-CONTEXT.md",
+    "snapshot": "repo/PROJECT-CONTEXT.md",
+    "sha256": "e634bcf1a1620ae2db228e8c3fb3215fc8deca20b3d352f12286340abc8414c5"
+  },
+  {
+    "source": "/Users/seanmacbook/Projects/agent-workflow-research/course/CHARTER.md",
+    "snapshot": "repo/course/CHARTER.md",
+    "sha256": "5efb604abb939737c1244d659f6137a951097bfc7157dd55dd4e5cbbc8b55209"
+  },
+  {
+    "source": "/Users/seanmacbook/Projects/agent-workflow-research/course/IDEAS.md",
+    "snapshot": "repo/course/IDEAS.md",
+    "sha256": "c460f374564d82e31e19a9a615593bb2653388ad6e1f551cace1f691c17fcf8c"
+  },
+  {
+    "source": "/Users/seanmacbook/Projects/agent-workflow-research/course/ASSESSMENT.md",
+    "snapshot": "repo/course/ASSESSMENT.md",
+    "sha256": "28d4401d3697fa0e539a5410562fb7a879090e64af7d45b610426472d48a6b09"
+  },
+  {
+    "source": "/Users/seanmacbook/Projects/agent-workflow-research/course/WORKLOAD.md",
+    "snapshot": "repo/course/WORKLOAD.md",
+    "sha256": "f61f4760a00da95c330537b70b69bed13082c088d3b33b41aeb7de895ec3ef58"
+  },
+  {
+    "source": "/Users/seanmacbook/Projects/agent-workflow-research/course/PROJECTS.md",
+    "snapshot": "repo/course/PROJECTS.md",
+    "sha256": "fb1bf86825597598cf7aaae15bd7134536a5c26956bc5f7cd9924a1d6dfd65d8"
+  },
+  {
+    "source": "/Users/seanmacbook/Projects/agent-workflow-research/materials/README.md",
+    "snapshot": "repo/materials/README.md",
+    "sha256": "9af2df9e9bb71b2b817c3b5f861f7d3561d719b7b4c9ac4bca1f37c840cdb790"
+  },
+  {
+    "source": "/Users/seanmacbook/Projects/agent-workflow-research/materials/advanced-study.md",
+    "snapshot": "repo/materials/advanced-study.md",
+    "sha256": "d1fdc13ea31be90698b9a22b97688d00ea3a5786ac0911010f0fa346a694d7ee"
+  },
+  {
+    "source": "/Users/seanmacbook/Projects/agent-workflow-research/materials/systems-reading-map.md",
+    "snapshot": "repo/materials/systems-reading-map.md",
+    "sha256": "ba272a065c848c8dbe7e77d2c9628bfd1457bfa3e8a8af5212169b941a708efa"
+  },
+  {
+    "source": "/Users/seanmacbook/Projects/agent-workflow-research/teaching/DECISIONS.md",
+    "snapshot": "repo/teaching/DECISIONS.md",
+    "sha256": "a6a76fc4b6803190cb820537886605064b14594a6a8c77bed33f6e4286220262"
+  },
+  {
+    "source": "/Users/seanmacbook/Projects/agent-workflow-research/teaching/handouts/01 Material Shelf.md",
+    "snapshot": "repo/teaching/handouts/01 Material Shelf.md",
+    "sha256": "618f363916efa19447cc083372b68078d5749d5dd8935c219ee21355aaf54c08"
+  },
+  {
+    "source": "/Users/seanmacbook/Projects/agent-workflow-research/teaching/handouts/02 Study Route.md",
+    "snapshot": "repo/teaching/handouts/02 Study Route.md",
+    "sha256": "6235248265ff683331ef4c9ca404c852dff07b2160f70d9cbd0fc9574310398a"
+  },
+  {
+    "source": "/Users/seanmacbook/Library/Mobile Documents/iCloud~md~obsidian/Documents/obsidian-vault/Notes/Coding Agent Course/00 Start Here.md",
+    "snapshot": "vault/Notes/Coding Agent Course/00 Start Here.md",
+    "sha256": "3c0cd26a9bdb613dab80e259a4c3b028dccd6ff9ca602048b74708c3cfa1ced8"
+  },
+  {
+    "source": "/Users/seanmacbook/Library/Mobile Documents/iCloud~md~obsidian/Documents/obsidian-vault/Notes/Coding Agent Course/01 Material Shelf.md",
+    "snapshot": "vault/Notes/Coding Agent Course/01 Material Shelf.md",
+    "sha256": "870b38d919923e5da3f0521581a8ed3531ffcea9405df6035dd9ad970644c368"
+  },
+  {
+    "source": "/Users/seanmacbook/Library/Mobile Documents/iCloud~md~obsidian/Documents/obsidian-vault/Notes/Coding Agent Course/02 Study Route.md",
+    "snapshot": "vault/Notes/Coding Agent Course/02 Study Route.md",
+    "sha256": "73317356388cbc34354439aa85d22c5f9b8b6cc4f4e9585e1c8edab6dae04637"
+  },
+  {
+    "source": "/Users/seanmacbook/Library/Mobile Documents/iCloud~md~obsidian/Documents/obsidian-vault/Projects/Active/terminal-agent-06-linux-coordination.md",
+    "snapshot": "vault/Projects/Active/terminal-agent-06-linux-coordination.md",
+    "sha256": "ea511ce88dfda9329bc9383a93f12b636562fb042b8470a39b316330fbd98dc3"
+  },
+  {
+    "source": "/Users/seanmacbook/Library/Mobile Documents/iCloud~md~obsidian/Documents/obsidian-vault/Projects/Active/agent-rust-first-cli.md",
+    "snapshot": "vault/Projects/Active/agent-rust-first-cli.md",
+    "sha256": "7bff68184ba783788b4da966d8c81e9873aac620e63e33a75d4107a1279e6104"
+  }
+]

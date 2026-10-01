@@ -1,5 +1,36 @@
 # Course decision record
 
+## Relocation/COLM postponement — September 30, 2026
+
+The student requested postponing all remaining course start dates/deadlines, including JS/Node, because of packing, the October 1 California flight and the following conference week; they explicitly confirmed October 12 return. Applied the [dated calendar revision](2026-09-30-RELOCATION-RESCHEDULE.md): eight project windows move later, JS/Node October 12–November 1, terminal October 12–25 in the project allowance, six successors sequential/provisional. This supersedes the September 28 proposal; later dates are retained as forecasts at the user’s request rather than cleared. September 28–October 11 has no required study or catch-up debt.
+
+Preserve 15h/week, prior mastery, task text/check states, historical logs, status and sequence/order. Every displayed window is at most 21 days; diagnose/split oversized scope before activation, especially Linux/coordination, and update successor forecasts from actual readiness. These foundation-project windows are not a finish promise for M1–M16. Four unscheduled electives and completed projects remain unchanged. No new project activated or learning completed.
+
+## Programming paradigms and design — September 30, 2026 (v1.6)
+
+The student explicitly agreed: “同意加上编程范式与设计吧”. Added required [M16 P1–P4](../course/modules/programming-paradigms.md), replacing the v1.5 coverage gap with FP, OOD, type-based modeling and a shared design comparison. M1–M15 IDs and evidence remain. TS is the default shared comparison language; Python supports explanation and a small Rust transfer follows M12 R1. System-design requirements remain in M3/M4/M7/M10/M11; M16 evidence joins final program defense.
+
+Additional estimate 24–36h beyond already-budgeted syntax and engineering instruction: new directed total 542–841h. The 20% allowance gives about 51–78 active weeks at 13 directed hours/week within the same 15h budget. These are provisional planning estimates; diagnose mastery and update with actual effort. No date changes, new active projects or learning completion. Shared experiments split into at most 6–9 project hours/21 days each. Grokking completion, Effect adoption and full pattern/language-theory courses remain optional. [Pre-change snapshot](../archive/2026-09-30-before-programming-paradigms/README.md) preserves v1.5 and the three vault notes.
+
+## Core foundations and coverage audit — September 30, 2026 (v1.5)
+
+The student said “这三个都加上吧，还有函数式编程和oop和system desgin在这课里都有吗”, referring to computer organization, data structures/algorithms and discrete mathematics. Added required M13–M15 with explicit evidence, selected primary sources and diagnostic credit. This supersedes v1.4's prerequisite-only treatment of those subjects. M1–M12 IDs and valid evidence remain; F0 is a compatibility reference to M13, with its 6–10h transferred out of M5.
+
+Net planning addition +72–107h brings the directed forecast to 518–805h; a provisional 20% allowance yields 48–75 active weeks at 13 directed hours/week within the same 15h total. No overall finish date is agreed. Existing dates, conference leave and tasks remain. These estimates cover selected depth and will change with observed mastery; they do not represent full university-course durations. All M13–M15 evidence joins program completion; only relevant checkpoints gate earlier modules.
+
+Coverage audit: FP has partial language features but no systematic required module; OOP has JS/TS foundations while deeper OOD remains optional; practical system design is already required throughout M3/M4/M7/M10/M11. The question requests an audit, so it does not authorize quietly adding full FP/OOP courses. [Module and audit](../course/modules/core-foundations.md); [pre-change snapshot](../archive/2026-09-30-before-core-foundations/README.md). No learner exercise or assessment was completed by planning.
+
+## Systems foundations — September 30, 2026 (v1.4)
+
+The student said “加上吧，我感觉我最缺失的几门课就是编译原理，操作系统，和网络通信” after requesting deeper Rust learning beyond a reading bridge. A scope clarification was answered explicitly: “存储与安全融入必修；Python 扩展、嵌入式留作选修（推荐）”. This authorizes the named required-scope change under the charter; no repeated approval is needed.
+
+Added required M12 [Rust/compiler construction](../course/modules/systems-foundations.md). M5 and M7 retain their IDs, with explicit OS/network/security and local storage/transaction evidence. M1–M11 credit remains; R1 Rust overlap is moved from M4, not repeated. M12 completion joins the overall program/capstone evidence without requiring the compiler to become an agent component. Computer-organization concepts and diagnosed algorithm/discrete-reasoning gaps support these mechanisms; no full extra degree courses are assigned.
+
+Teacher planning delta: M12 +60–95h, M4 −6–10h, M5 +30–40h and M7 +20–30h = net +104–155h. New directed forecast 446–698h; 20% revision allowance yields about 42–65 active study weeks at 13 directed hours/week within the 15h total. These are provisional estimates, not actual learner effort or a finish-date commitment. Existing dates, task states, M1 credit and the October 5–11 break remain. Split execution projects into at most 21 days at allocated capacity; the old Linux/coordination sprint remains a backlog requiring subdivision before activation.
+
+[Pre-change snapshot](../archive/2026-09-30-before-systems-foundations/README.md) preserves repo and vault files, including unrelated pre-existing I010 work. Sources were inspected, curriculum/navigation updated, but no student exercise, infrastructure provisioning, installation, publication or assessment was performed.
+
+
 ## Workload forecast and conference leave — September 28, 2026
 
 The student authorized starting the workload/restart planning and requested a week's postponement for COLM. They confirmed October 5–11 as the break and October 12 as the return. No conference homework or catch-up debt is assigned. The [first workload forecast](../course/WORKLOAD.md) preserves core outcomes and accounts for shared materials/artifacts once. Its 342–543 directed-hour range and 32–51 active-week contingency scenario are teacher estimates, not measured learner effort or a promised graduation date.

@@ -1,0 +1,66 @@
+[
+  {
+    "snapshot": "repo/PROJECT-CONTEXT.md",
+    "sha256": "6c1e426e4246e9ef33d62142f7381cb836f6a18ad06a68b0235b1b8ebdbd8f9c"
+  },
+  {
+    "snapshot": "repo/ROADMAP.md",
+    "sha256": "e0ec3c799162a1d887dc041df7f0a39c8865092e847493fed724850bed1a0f59"
+  },
+  {
+    "snapshot": "repo/course/CHARTER.md",
+    "sha256": "7404fdb808687eba15992cb9374ec8aae63373d6b0ba19756b2087f7719d39d2"
+  },
+  {
+    "snapshot": "repo/course/WORKLOAD.md",
+    "sha256": "f15ddf6e9207166bc2a05e90077127689f6194424da0ead74c085b51829c8a84"
+  },
+  {
+    "snapshot": "repo/course/IDEAS.md",
+    "sha256": "7e6e8b6143fbbf35f51005400685d71d176ec1cebbbf6a1a07b7b1aae2de47ba"
+  },
+  {
+    "snapshot": "repo/course/ASSESSMENT.md",
+    "sha256": "7986972455d5a493c94e8ce51e36e3fab88cc82733b018c719c69f03d47bcd79"
+  },
+  {
+    "snapshot": "repo/course/PROJECTS.md",
+    "sha256": "d3b963dc6d40fd125481196d388519710712da4ac335d707c832f36bba506bad"
+  },
+  {
+    "snapshot": "repo/course/modules/systems-foundations.md",
+    "sha256": "a8b2f6fe19e52260c69f940f318d52fe392b03445614d369c4cc00c3b784aab4"
+  },
+  {
+    "snapshot": "repo/materials/README.md",
+    "sha256": "ef36e3c52df623342c1f8367c5b51e300dabadebb7b2decff139a41f9fa1d48f"
+  },
+  {
+    "snapshot": "repo/materials/systems-reading-map.md",
+    "sha256": "10c968d4480b9f543c4292a4c3cca42e631076f7494e3d6bde490c92e1fa2150"
+  },
+  {
+    "snapshot": "repo/teaching/DECISIONS.md",
+    "sha256": "d911bb91521d9b473cf7e0eb57d83e41c943aefbf0c5e1bd116547cec9fdce8e"
+  },
+  {
+    "snapshot": "repo/teaching/handouts/01 Material Shelf.md",
+    "sha256": "92fab3ce5079cb00d984d166ca5c020681cd547e54eca375566a28565e089bd6"
+  },
+  {
+    "snapshot": "repo/teaching/handouts/02 Study Route.md",
+    "sha256": "017803042d4e4423a4bc45ec1d00ae051c4d5a08bba5027d92eb80a24f9d1679"
+  },
+  {
+    "snapshot": "vault/Notes/Coding Agent Course/00 Start Here.md",
+    "sha256": "6233fc0be75dcef025f87e5741d75777e38c78e06c12a27a3464c0096bc504b6"
+  },
+  {
+    "snapshot": "vault/Notes/Coding Agent Course/01 Material Shelf.md",
+    "sha256": "b55ce849e3940d97969f00433c48f328326f9f90f97612b4961c0ed559c6cb10"
+  },
+  {
+    "snapshot": "vault/Notes/Coding Agent Course/02 Study Route.md",
+    "sha256": "76ffb8ba2d5e0965607b9933d82318b36c1808f11e3f7c7729c9866dd94a435c"
+  }
+]

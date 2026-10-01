@@ -18,6 +18,25 @@ This catalog maps work to learning outcomes. The [charter](CHARTER.md) owns work
 
 These links preserve existing ownership; they do not imply unchanged old scopes satisfy every new milestone. Map evidence and explicitly add missing criteria during the approved reforecast. No new completion is recorded by this catalog.
 
+## Required systems project families — September 30, 2026
+
+[Systems module](modules/systems-foundations.md) owns criteria and teaching-block estimates. Each implementation slice below is at most 6–9 project hours (two or three project weeks), with theory charged to the primary module. Split again if the entry diagnostic shows this is too small. No new dates or active projects are created by this catalog.
+
+| Family | Small independently useful deliverable | Ownership and reuse |
+|---|---|---|
+| M12 compiler | Separately: expression parser; scope/type checker; evaluator; bytecode expressions; branch/call-frame extension; one optimization; tiny backend experiment | Assign only the next owner at activation. Optional existing [Rust CLI](</Users/seanmacbook/Library/Mobile Documents/iCloud~md~obsidian/Documents/obsidian-vault/Projects/Active/agent-rust-first-cli.md>) can demonstrate part of R1; do not duplicate its tasks or treat it as all of M12. |
+| M5 OS/network/security | One process/pipe diagnosis; one memory/synchronization experiment; framed socket service; packet/failure report; one access-boundary verification | Existing Linux/coordination note retains ownership until an authorized split. Its old 30h envelope cannot contain the expanded M5/M7 scope. |
+| M7 storage | Append-log KV fixture and, separately, crash/torn-record recovery; transaction-history comparison | Assign a bounded owner at activation; reuse the N1 protocol fixture and M7 failure histories where appropriate. No production database rewrite required. |
+| Python extensions / embedded | A later measured native-extension or simulated device experiment | Electives only, with their own scope/time decision; no required hours or activation. |
+
+## Required foundation project families — September 30, 2026
+
+[M13–M15](modules/core-foundations.md) add independently assessable foundations. At activation select only one bounded slice: M13 small ALU/instruction simulator or cache/object-file report; M14 a hash table/heap, dependency-graph analyzer or DP comparison; M15 a proof/counterexample portfolio with a bounded protocol or probability simulation. Each practical slice uses at most 6–9 project hours and at most 21 days; instruction is separately charged within the milestone. Reuse compiler/worker/store fixtures and existing valid evidence. Larger scopes must split; do not assign three simultaneous projects. No new execution owner or date is created here.
+
+## Programming paradigms and design — required M16
+
+Use [one bounded task-lifecycle/retry-policy component](modules/programming-paradigms.md) for both functional and object-oriented designs. Separate practical slices: one variant with fixtures; the other against the same contract; then a small Rust transfer and change comparison. Each slice is at most 6–9 project hours and 21 days at actual capacity; P1–P4 already include this effort. Reuse the current learning owner or create only the next bounded owner on activation. No new active project, schedule or completed exercise is implied.
+
 ## Options awaiting activation
 
 | Option | Course fit | Smallest next deliverable | Status |

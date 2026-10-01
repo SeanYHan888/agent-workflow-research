@@ -1,6 +1,6 @@
 # JS/Node restart diagnostic
 
-Teacher preparation, September 28, 2026. Use at the student's first study session after the break; there is no conference-week assignment. The [JS/Node project](</Users/seanmacbook/Library/Mobile Documents/iCloud~md~obsidian/Documents/obsidian-vault/Projects/Active/terminal-agent-02-javascript-node.md>) owns scheduling, attempts, artifacts and results. This sheet contains prompts, not a second task checklist or a completed assessment.
+Teacher preparation, September 28, 2026. Use at the student's first study session after the break; there is no relocation/conference-break assignment (September 28–October 11); the confirmed restart is October 12. The [JS/Node project](</Users/seanmacbook/Library/Mobile Documents/iCloud~md~obsidian/Documents/obsidian-vault/Projects/Active/terminal-agent-02-javascript-node.md>) owns scheduling, attempts, artifacts and results. This sheet contains prompts, not a second task checklist or a completed assessment.
 
 ## First 45 minutes
 

@@ -1,5 +1,7 @@
 # Grokking OOD: targeted optional reference
 
+**September 30 scope update:** [M16 programming paradigms and design](../course/modules/programming-paradigms.md) now requires OOD outcomes and an FP/OOP comparison. This particular Grokking resource remains optional. The September 11 scope/time statements below are historical; the current [roadmap](../ROADMAP.md) and [workload](../course/WORKLOAD.md) supersede the old 160-hour boundary.
+
 Assessed September 11, 2026. Local checkout: `/Users/seanmacbook/Self-learn/grokking-the-object-oriented-design-interview`, initially commit `3d35276091bcc84027c91935912b1f9e29d987c0`, refreshed to `ba7927f641f26a189ddfc4679aba527b170cd0b8`. Recommendation based on the index, UML notes, and representative library/OOP examples; this is not an exhaustive review.
 
 **Include it on the material shelf as targeted optional reading in Sections 3 and 5.** Its useful contribution is practice identifying responsibilities, interfaces, relationships, and message order. Completing its interview case studies would add a separate goal to our existing agent-building course. Keep the [160-hour roadmap](../ROADMAP.md) and [settled course sequence](../teaching/DECISIONS.md); use these readings only within an existing design-reading allocation when they resolve a concrete gap.
