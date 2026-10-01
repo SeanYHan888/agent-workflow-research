@@ -35,6 +35,18 @@ The capstone requires a design defense, evaluation workload and failure experime
 
 Apply [M11 engineering practice](modules/engineering-practice.md) to substantive course deliverables: identify the candidate revision, acceptance criteria, verification and review evidence, unresolved limits and recovery method before recording accept/revise. PR approval, merge permission and deployment permission are separate decisions. A result can meet its requirements while the learner still needs assessment of understanding; preserve both judgments distinctly.
 
+## Systems evidence — September 30, 2026
+
+Use the [R1/K1–K5, F0/O/N/S and D1–D3 criteria](modules/systems-foundations.md). M12 requires learner-authored compiler/VM behavior, semantics-preserving transformation evidence and an unseen extension or bug diagnosis; a copied interpreter is insufficient. M5 requires OS/network/security mechanism explanations with failure experiments, beyond command familiarity. M7 storage requires stated commit/recovery assumptions and transaction-history reasoning; process-kill tests do not prove power-loss safety. Reuse demonstrated evidence across modules and record only remaining gaps.
+
+## Core-foundations evidence — September 30, 2026
+
+[M13–M15](modules/core-foundations.md) use A1–A4, ALG1–ALG4 and DM1–DM4. Require a machine trace and controlled experiment, algorithm cost/correctness reasoning, and proofs/derivations with explicit assumptions. A mathematical artifact can be a proof plus counterexample/simulation rather than a software build. Each needs learner explanation and an unfamiliar variation. Diagnostics credit existing mastery; unsupported assumptions based on Python experience do not. F0 evidence is credited through M13 and reused in M5, never reassigned as a second requirement.
+
+## Programming-paradigm evidence — September 30, 2026
+
+[M16 P1–P4](modules/programming-paradigms.md) require one shared contract exercised through FP and object-oriented designs, explicit effect/state boundaries, a substitution counterexample, type-model limitations, and a small Rust transfer after R1. The learner defends two changes and independently handles an unfamiliar variation. Existing syntax, tests and ADR evidence can be reused; fixtures support tested cases, not universal equivalence. Require reasons for the chosen combination of styles rather than a preferred pattern name.
+
 ## Evidence record
 
 In the owning Obsidian project, record: date, milestone/criterion, focused time, artifact/revision and output links, student explanation, unfamiliar scenario, assistance, dimension results and next step. Preserve historical completion when the curriculum changes; record additional requirements as new gaps linked to the approved change.
