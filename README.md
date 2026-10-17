@@ -1,15 +1,16 @@
 # Distributed AI Agent Systems
 
-A personal program for learning to design, build, evaluate and operate distributed AI agent systems. Four stages connect programming and agent internals with Linux, networks, containers, model inference and distributed systems.
+A project-first course for learning to build and operate a safe, lightweight agent-first Linux distribution across remote VPS nodes. Start with a controllable runner and develop useful components, experiments and explanations through the [project route](ROADMAP.md#project-route). Each session uses a learner attempt, focused teaching, a failure check and a demonstrable result.
 
 **15 hours/week:** 10 core study/labs, 3 project work, 2 exploration. The curriculum can change deliberately while preserving essential outcomes and demonstrated learning.
 
 | Need | Open |
 |---|---|
-| Milestones, subject boundaries and prerequisites | [Roadmap](ROADMAP.md) |
+| Hands-on project route, milestones and prerequisites | [Roadmap](ROADMAP.md) |
 | Estimated effort, overlap and capacity | [Workload forecast](course/WORKLOAD.md) |
 | Teaching agreement and how the course adapts | [Charter](course/CHARTER.md) |
 | Live schedule, tasks and learning evidence | Obsidian course overview |
+| Design, evaluate and maintain reusable agent skills | [Agent Skills — M18](course/modules/agent-skills.md) · [Five-repository review](research/agent-skills-review-2026-10-16.md) |
 | Git/GitHub, PRs, reviews, ADRs, TDD and mistake recovery | [Engineering practice — M11](course/modules/engineering-practice.md) |
 | RabbitMQ, Kafka and reliable messaging | [Message brokers — M7](course/modules/message-brokers.md) |
 | Oracle status, VPS recommendations and monitoring | [VPS operations home](operations/vps/README.md) |

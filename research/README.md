@@ -6,6 +6,7 @@ These investigations preserve findings and open questions. Inclusion here does n
 |---|---|
 | [MIT 6.5840](mit-65840-course-fit.md) | Spring 2026 distributed-systems syllabus, actual lab dependencies and bounded M7 selection |
 | [Stanford CS329Z](stanford-cs329z-course-fit.md) | Fall 2026 agent-engineering syllabus, release/access limits and embedded design/evaluation selections |
+| [Five agent-skill collections](agent-skills-review-2026-10-16.md) | October 16 review of Matt Pocock, pstack, HumanLayer, Emil Kowalski and Addy Osmani; current per-skill purposes, dependencies and M18 selections |
 | [Matt Pocock skills](matt-pocock-skills-course-fit.md) | Source-pinned survey of eleven engineering skills for M11, including review-coverage limits |
 | [Cua course fit](cua-course-fit.md) | I006 optional computer-use lab; runtime feasibility and bounded experiment |
 | [Oracle folder retirement](oracle-folder-retirement.md) | Source preservation, migrated paused monitor and folder retirement record |

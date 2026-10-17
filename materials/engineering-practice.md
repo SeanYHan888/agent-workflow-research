@@ -23,3 +23,16 @@ The follow-up [Matt Pocock workflow survey](../research/matt-pocock-skills-cours
 - [Local domain-modeling skill](<~/.agents/skills/domain-modeling/SKILL.md>): precise vocabulary and sparing use of ADRs for meaningful tradeoffs.
 
 These are reading references for this curricular update, not invocations of their implementation/review procedures. During a real exercise, honor the applicable repository instructions and the selected skill's actual scope. Running a skill does not establish that its prerequisites were met or its output was accepted.
+
+## Agent review and CI experiment
+
+The [M11 delivery lab](../course/projects/agent-review-ci-lab.md), accepted October 1, tests what deterministic checks, a separate agent reviewer and human inspection actually catch. Selected reading is included in its six-hour budget, not a second reading assignment.
+
+| Source | Focus and use |
+|---|---|
+| [Google review guidance](https://google.github.io/eng-practices/review/reviewer/looking-for.html) | Tests, functionality and review scope: can a test pass while the requirement fails, and what needs inspection? |
+| [Claude Code GitHub Actions](https://code.claude.com/docs/en/github-actions) | Concrete example of an agent inside an event-driven workflow. Inspect current setup, permissions and execution limits when preparing the lab; the provider is replaceable. |
+| [Existing GitHub automation investigation](../research/claude-github-automation-research.md) | Distinguish trigger, runner, deterministic checks, review feedback and repair; historical research does not prove an integration is installed. |
+| [Matt Pocock workflow study](../research/matt-pocock-skills-course-fit.md#two-important-composition-checks) | Explain how reviewing the wrong diff can miss the candidate, then ensure the experiment reviews the revision actually tested. |
+
+Primary Google and Claude pages were checked October 1 in the course discussion. Pin the selected action/model and record the actual configuration at execution; do not infer current runtime behavior from this reading map.

@@ -36,6 +36,12 @@ The central workflow is **brief → small change → verification → review →
 
 Initial estimate: **12–18 focused hours**, distributed across core study/labs and existing project review time; reassess after E1/E2. This is additional curricular scope within the same 15-hour weekly capacity, not a claim that the old dates can absorb it. Select a short engineering lesson in the current core allocation when it helps the active work, displacing an equal amount of planned study. Keep one primary module and one project. Existing deadlines await the shared reforecast rather than moving silently.
 
+## Delivery experiment: agent review and CI
+
+The [agent review and CI lab](../projects/agent-review-ci-lab.md), accepted October 1, 2026, makes E3/E5/E6 concrete: deterministic checks → separate agent review → bounded repair → checks on the new revision → human acceptance and recovery. Compare what each stage detects on seeded defects and a clean control; measure missed defects, false alarms and human review effort. Defend when reduced manual inspection is justified, without treating passing tests or model agreement as proof.
+
+This replaces the generic delivery exercise with an up-to-six-hour slice inside M11's existing 12–18h allocation. E1/E2 and E4 remain required. It is unscheduled, uses the existing M3/M4 artifact after readiness, and does not complete learner work or enable a hosted integration.
+
 ## Mistake-recovery cases
 
 Before taking action, inspect status, identify what must be preserved and make a recoverable checkpoint for the intended scope. Practice in a disposable teaching repository; do not use this dirty classroom or a live product as a destructive-command sandbox.

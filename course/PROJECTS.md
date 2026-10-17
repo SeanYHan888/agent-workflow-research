@@ -2,13 +2,29 @@
 
 This catalog maps work to learning outcomes. The [charter](CHARTER.md) owns workload/activation rules; Obsidian owns execution tasks, dates and evidence. A catalog entry is not an active assignment. Keep one primary module and one active project; a module's lab can supply its practical work.
 
+## Select the next hands-on slice
+
+Follow the [project route](../ROADMAP.md#project-route), check the current owner's evidence, and define one useful behavior with a normal case and relevant failure case. Name the milestone criterion, entry skills, focused-hour allowance and evidence owner before assignment. Lessons and labs can share an artifact; they do not create parallel project backlogs. The charter's project-first allocation keeps hands-on work inside existing hours.
+
+For the current JS/Node restart, use these incremental choices after the diagnostic. Estimates include explanation, attempts, testing and feedback, and are planning assumptions rather than assigned tasks:
+
+| Increment | Acceptance evidence | Initial core/lab allowance |
+|---|---|---:|
+| Task-file CLI | Read a tiny fixture, print a task summary, reject malformed input with an explained error | 4–6h |
+| Observable fake worker | Launch a fixed harmless command; distinguish failed startup, output and nonzero exit | 5–7h |
+| Controllable runner | Handle a split JSONL record, bound retained output, cancel a slow fixture and establish it stopped | 5–7h |
+
+The combined 14–20h estimate is inside the existing 30h core/lab restart envelope, leaving 10–16h for remaining language-course work and gaps; that allowance is not proof all Boot.dev work fits. Scope only the next ready increment using observed pace. If the whole deliverable does not fit, split remaining execution work before activation and review any affected dates under the charter. Keep the current JS/Node owner, task states and explicit resource-completion goals. The terminal pilot retains its own project allowance.
+
+Later rows are families to split using the same rule, not a sequence of oversized execution projects.
+
 ## Existing project mappings
 
 | Project or project family | Role and milestone | Entry and bounded outcome | Progress owner |
 |---|---|---|---|
 | Tool-cycle orientation | Core M1 | Trace execution and change a dispatcher; preserve demonstrated September 13 evidence | Archived agent loop |
 | JS/Node runner | Core M2 | Relevant JS basics → task-file runner, output and failure handling | JS/Node |
-| Engineering delivery/recovery lab | Required M11, introduced with M2 and practiced through M3/M4 | Read-only Git inspection first; later one bounded change with tests, ADR where justified, review, acceptance and recovery. Full topic 12–18h spread across modules; a hands-on delivery slice can use up to 6 project hours over two weeks. | Reuse the current learning project for a short exercise; assign one owner when a separate bounded lab is activated. [Module](modules/engineering-practice.md) |
+| Engineering delivery/recovery lab | Required M11, introduced with M2 and practiced through M3/M4 | Read-only Git inspection first; then the [agent review/CI experiment](projects/agent-review-ci-lab.md): one bounded change, seeded defects, deterministic checks, separate review, bounded repair, acceptance and recovery; ADR where justified. Up to 6 project hours over two weeks, inside the full topic's 12–18h. | Reuse the current learning project for a short exercise; assign one owner when a separate bounded lab is activated. [Module](modules/engineering-practice.md) |
 | Small typed agent | Core M3 | Language/async/process checkpoints → validated tools, bounded loop and persistence | TS agent |
 | Source/extension and real-worker adapter | Core M4 | Small-agent understanding → one source trace/extension, then a bounded worker contract | Pi extension · worker adapter |
 | Terminal and GUI collaboration | Required workflow outcomes | One reviewed real task, interruption/resume; later a bounded client/server ownership comparison | Terminal · GUI |
@@ -56,3 +72,22 @@ Use [one bounded task-lifecycle/retry-policy component](modules/programming-para
 Name its milestone or elective purpose; entry evidence; one independently useful deliverable; in/out scope; acceptance cases; estimated focused hours; allocated weekly hours; affected work; existing/new Obsidian owner; resource and external-action constraints. Keep execution checkboxes only in that owner. At three hours/week, a 12–15-hour elective needs smaller slices or an explicitly reallocated budget to fit the 21-day rule.
 
 Projects can change with the course. Revise the brief and milestone mapping, retain valid evidence, and use the charter's change review when required outcomes or agreed deadlines would change. Do not quietly turn an optional product deliverable into a graduation requirement.
+
+## Agentic Linux project family — October 4, 2026
+
+The [M17 course](modules/agentic-linux.md) and [M10 distribution brief](projects/agentic-linux-distribution.md) define the required outcomes. The [project folder and M1–M17 map](projects/agentic-linux-distribution/README.md) connect existing projects to the six goals. Prefer the current runner, agent and service as the evolving product. The whole distribution is a long-term direction; each execution slice needs its own owner at activation.
+
+| Slice | Budget and useful result | Ownership |
+|---|---|---|
+| T1 request/source trace | Existing M4 GUI allocation; one explained request path | Existing GUI note above; preserve its tasks and evidence. |
+| T2 Linux service | 6–9h; observed lifecycle, denied action and recovery | New bounded owner at activation; reuse M5 foundations. |
+| Q1 Quattro trace | 6–9h; one explained desktop-to-OS action | New bounded owner at activation. |
+| Q2 reversible extension | 6–9h; one tested change and removal/recovery | New bounded owner after Q1. |
+| C1 comparison | 6–9h; design decision, target user and release boundary | New bounded owner; reused by M10. |
+| M10 distribution | Separate bootable baseline, integration, update/recovery, evaluation and release slices | See the release brief. Each project uses at most 6–9 project hours across 21 days; any additional lesson time is explicitly allocated from core study. |
+
+The existing team project supplies bounded coordination evidence. It is not the owner of the entire distribution. No new tasks, dates or completion are implied by this catalog.
+
+## Agent Skills — required M18, October 16, 2026
+
+The [M18 brief](modules/agent-skills.md) adds one learner-authored workflow with baseline comparison and maintenance evidence. Reuse the existing 智能体指令与技能试验 for an appropriate first slice: live status `later`, no dates, three-hour minimal trial, read October 16. Do not expand that trial silently to the full 12–18h course. Subsequent bounded slices are authoring with fixtures and, separately, evaluation/transfer. Each uses at most 6–9 project hours and fits 21 days at actual capacity; teaching hours come from the primary module allocation. Record shared effort once and choose only the next owner at activation. No new execution checklist or active project is created here.

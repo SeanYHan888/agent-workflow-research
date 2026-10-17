@@ -15,6 +15,12 @@ Every milestone needs a working artifact or reproducible experiment, an explanat
 
 All four dimensions must be demonstrated; a strong demo does not compensate for unexplained behavior. Use a short diagnostic early to credit prior knowledge and target instruction.
 
+## Project checkpoints
+
+Use the same standard during the [project route](../ROADMAP.md#project-route). Before a slice, agree on observable behavior and a relevant failure case; after it, inspect the actual artifact/output and have the learner trace the mechanism. Add an unfamiliar variation when assessing mastery. A useful failure with a reasoned next experiment can close a learning session without passing the milestone.
+
+Map each accepted artifact to the exact criteria it demonstrates and record remaining gaps. Reuse a runner or failure trace across milestones only when it supports their distinct claims; neither shipping a component nor finishing reading automatically completes a subject. Proofs, controlled experiments and source traces remain valid hands-on evidence for foundations and advanced modules.
+
 ## Assessment session
 
 1. Name the milestone and exact criteria being assessed. Read earlier evidence first.
@@ -58,3 +64,13 @@ The required [RabbitMQ/Kafka module](modules/message-brokers.md) uses the same a
 ## University-source assessments — September 28, 2026
 
 For the [selected MIT/Stanford route](../materials/university-course-integration.md), require a paper claim with assumptions and a counterexample/failure history, plus a short independent design defense. MIT selections add concurrent-history and protocol reasoning; Stanford selections add a simple baseline, development/held-out separation, scorer validation and error analysis. Reuse valid existing evidence and assess only gaps. Our adapted checkpoints are not university exams, grades or full-course completion. If using original assignments, inspect their current collaboration rules; retain learner authorship and keep MIT lab solutions private. No public recording, peer grading or university access is presumed.
+
+## Agentic Linux evidence — October 4, 2026
+
+[M17](modules/agentic-linux.md) requires a source trace, service/access experiment, reversible desktop change and comparison. Credit the existing M4 GUI trace only when demonstrated. Assess explanation and an unfamiliar failure as well as the artifact. The [M10 distribution](projects/agentic-linux-distribution.md) adds fresh installation, update/recovery and release evidence to the retained distributed-system criteria. Public availability, a booting image and learner mastery are separate facts. Record each accurately.
+
+The [six project goals](projects/agentic-linux-distribution/README.md) now guide the final evaluation: a suitable Rust component, easy SSH operation, distributed behavior across remote VPS nodes, agent control, enforced safety and measured resource use. Set numerical limits and a workload before claiming the system is lightweight. Retain per-module evidence as the project develops; publication does not replace explanation or unfamiliar-failure assessment.
+
+## Agent Skills evidence — October 16, 2026
+
+[M18 AS1–AS4](modules/agent-skills.md) requires a learner-authored skill, evidence of correct and inappropriate activation, no-skill comparison on fixed fixtures, held-out cases, failure analysis and version/disable behavior. Explain which behavior comes from instructions and which boundaries the host enforces. Defend an unfamiliar trigger, missing-tool or misleading-input scenario. A skill can fail to improve outcomes while the learner demonstrates sound evaluation; installation and a polished generated skill do not prove mastery. Reuse M1/M4/M11 evidence for the criteria it already supports.

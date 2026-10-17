@@ -26,7 +26,9 @@ The university selections, Claude materials and source-code studies overlap. Reu
 | M7 | Selected MIT 6.5840 replication/consistency/ownership route and CS329Z agent comparison; existing System Design Primer/101 as supporting reference | [Systems reading map](systems-reading-map.md) and required [RabbitMQ/Kafka readings](message-brokers.md); required [D1–D3 local storage](../course/modules/systems-foundations.md) before durable distributed work, retained events and partial-failure reasoning |
 | M8 | Official Kubernetes concepts/tasks after Linux, networking and containers | [Systems reading map](systems-reading-map.md); scoped service deployment/recovery |
 | M9 | Selected CS336, FlashAttention/PagedAttention papers, vLLM documentation/source; C5–C11 | [Advanced selections](advanced-study.md); controlled experiments, hardware constraints stated |
-| M10 | C12 reliable serving, CS329Z data/evaluation/safety selections and prior coordination/runtime materials | Integrate and defend measured behavior; no new catalog to finish |
+| M17 | [T3 Code and Omarchy Quattro source map](agentic-linux.md) | Required case studies: request/service ownership, shell/IPC, reversible change and comparison; T1 reuses M4, T3OS waits for published sources |
+| M18 | [Agent Skills course/source map](../course/modules/agent-skills.md), official format specification and [five-repository review](../research/agent-skills-review-2026-10-16.md) | Select one relevant workflow; author, evaluate and maintain it. Other collections are comparisons, not mandatory installations or completion lists. |
+| M10 | [Distribution release brief](../course/projects/agentic-linux-distribution.md), C12 reliable serving, CS329Z data/evaluation/safety selections and prior coordination/runtime materials | Integrate and defend measured behavior; no new catalog to finish |
 
 The [M16 module](../course/modules/programming-paradigms.md) now closes the previously recorded FP/OOD gaps. Practical system design remains a required thread through the existing agent/distributed milestones.
 
