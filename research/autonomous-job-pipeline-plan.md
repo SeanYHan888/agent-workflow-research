@@ -4,6 +4,7 @@ Course placement: applied-project option under [PROJECTS.md](../course/PROJECTS.
 
 Draft v1 — September 24, 2026. Planning only; no unattended runner, paid job, publication or deployment has been started.
 
+**Investigation checkpoint:** The user asked to understand Claude Tag and existing issue-triggered development before building. Read the [Claude Tag investigation](claude-tag-workflow-investigation.md) and [GitHub Actions comparison](claude-github-automation-research.md). Evaluate these existing routes against a real first workload before committing to the local Node controller proposed below. Tool selection remains open; the workload is chosen separately. The current project allocation is governed by the course charter.
 
 ## Confirmed direction
 
@@ -20,6 +21,7 @@ Submit a bounded job, leave it running, and receive either a completed artifact 
 | Coding | Review-ready branch/diff and report; a draft PR once its repository and publication scope are authorized | Acceptance examples demonstrated, relevant checks run by the verifier on the exact candidate revision, scope checked, unresolved findings disclosed |
 | Research | Local Markdown report with claim/source ledger and uncertainty notes | Research question answered or evidence limits explicitly resolved; key claims supported by inspected primary sources; contradictions and dates identified; citations actually checked |
 
+The first coding workload is not selected. The earlier candidate, a dashboard in an outside private repository, was withdrawn on October 27, 2026; choose a repository the learner owns or a public/synthetic fixture.
 
 ## Shared flow and two job templates
 
@@ -133,11 +135,11 @@ Share artifacts: a pipeline failure becomes a process/networking/recovery lesson
 
 ## Decisions still open
 
-1. The first dashboard slice within the selected repository; a dashboard scoping report is the proposed first research job. A separate research topic remains optional/open.
+1. The first coding workload (a learner-owned repository or a synthetic fixture) and the first research topic.
 2. The per-job and weekly model usage/spend ceiling, based on the selected authentication route.
 3. Exact delivery authorization: local artifacts first; named-repository draft PRs when selected. Merge/deployment stays a human decision initially.
 
-No installation, credential change or published artifact is implied by this draft. The immediate next action is the dashboard scoping/decision job described in the repository-specific pilot, then a bounded coding brief. The 16–24-hour runner estimate excludes the dashboard's as-yet-unestimated feature work.
+No installation, credential change or published artifact is implied by this draft. The immediate next action is selecting that workload and writing one bounded coding brief. The 16–24-hour runner estimate excludes the workload's own feature work.
 
 ## Evidence behind tool choices
 

@@ -4,7 +4,7 @@ Historical/review preparation. The tool-cycle section was completed September 13
 
 Purpose: determine whether the learner can distinguish a model's request from execution by the harness. Planned student effort: 30–45 minutes. No API call or installation.
 
-Student handout: [One tool cycle](<../my-progress/reading-room/03 One Tool Cycle.md>). Preserved progress owner: Obsidian `Projects/Archive/terminal-agent-01-agent-loop.md`.
+The student handout is a one-page trace of a single tool cycle; the [M1 guide](../course/modules/agent-tool-cycle.md) has the same sequence.
 
 ## Source checked September 11
 

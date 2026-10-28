@@ -58,7 +58,7 @@ Claude Tag is the Slack entry point. Claude Code GitHub Actions is a separate ro
 
 Do not assume an issue label is a universal command, that every trigger automatically creates a PR, or that a coding result automatically gets merged.
 
-## Implication for our dashboard plan
+## Implication for the pipeline plan
 
 Investigate the existing managed routes before implementing a custom controller. The original Node runner is a candidate, not a prerequisite for useful autonomous work. Choose according to available organizational access and the desired work surface:
 
@@ -66,5 +66,6 @@ Investigate the existing managed routes before implementing a custom controller.
 - A GitHub workflow is a natural candidate for a bounded issue-to-code pilot already tracked in GitHub.
 - The local runner remains useful if those routes fail an actual requirement or for deliberate implementation learning.
 
+Whichever route is chosen, the first delegated job needs an explicit scope decision from a human first; being tagged does not resolve an open product decision.
 
 An evaluation should demonstrate repository access, dependency setup, one complete task, CI feedback handling and the human decision path before adopting any route. No permissions, subscriptions, workflows or cloud state were changed by this investigation.

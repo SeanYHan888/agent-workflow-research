@@ -30,7 +30,6 @@ Later rows are families to split using the same rule, not a sequence of oversize
 | Terminal and GUI collaboration | Required workflow outcomes | One reviewed real task, interruption/resume; later a bounded client/server ownership comparison |
 | Linux/runtime and coordination | Core M5/M7 | Single-host operation first; then durable two-worker recovery. Split overloaded scope at activation/reforecast. |
 | Existing-tool team | Core M7; evidence reused in M10 | Bounded coordinated work, separate review and failed-worker recovery; not automatically the expanded capstone |
-| Daily Task Panel | Elective or equivalent TS exercise | TS unions/narrowing; select a bounded slice from the [lab](../my-progress/projects/typescript-plugin-lab.md). Preserve agent-specific criteria. |
 
 Each family has one progress owner in the learner's record, named at activation; an existing owner does not imply its old scope satisfies every new milestone. Map evidence and explicitly add missing criteria during the approved reforecast. No new completion is recorded by this catalog.
 
@@ -58,6 +57,7 @@ Use [one bounded task-lifecycle/retry-policy component](modules/programming-para
 | Option | Course fit | Smallest next deliverable | Status |
 |---|---|---|---|
 | VPS lab | M5, preparatory M2 exploration | One bounded remote-service slice on an authorized host | Not activated; existing VPS tasks stay with the Linux owner. Provider choice and paid hosts need their own authorization. |
+| Autonomous pipeline | M4/M5/M7 applied project | One bounded job brief with verification on a learner-owned repository or synthetic fixture | [Pipeline proposal](../research/autonomous-job-pipeline-plan.md); progress owner assigned at activation |
 | Inference experiments | M6/M9 | One generation/cache experiment, then separately scoped serving/benchmark labs | Materials selected; create project owners when activated |
 | RabbitMQ reliable-job lab | Required M7 B2 | Up to 6h / two project weeks: two workers, confirms/acks, bounded retries, crash/duplicate effect checks | [Broker module](modules/message-brokers.md); unscheduled, owner assigned at activation; no duplicate Linux tasks |
 | Kafka lifecycle/replay lab | Required M7 B3 | Separate up to 6h / two project weeks: independent groups, retained replay, offset/crash behavior and projection checks | Runs after the prior lab, using one active project slot; no cluster purchase implied |

@@ -85,7 +85,7 @@ For each source session record: revision, question, entry point, key functions, 
 
 ### Claude Code behavior
 
-Study Claude Code through official documentation, observed product behavior and the official public repository ([sources/agents/claude-code](sources/agents/claude-code/README.md)), alongside the open-source harnesses above. One learner's separate, unverified local-snapshot lane is recorded in [my-progress](../my-progress/claude-code-snapshot-lane.md); it is not part of the shared course.
+Study Claude Code through official documentation, observed product behavior and the official public repository ([sources/agents/claude-code](sources/agents/claude-code/README.md)), alongside the open-source harnesses above.
 
 ## Track C: model inference from foundations to serving
 

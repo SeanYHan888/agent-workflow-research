@@ -1,6 +1,6 @@
 # Teaching office
 
-The [charter](../course/CHARTER.md) owns the teaching agreement; the [roadmap](../ROADMAP.md) owns progression. This directory holds the session workflow and prepared sessions; the [decision history](../course/DECISIONS.md) records course changes. Detailed teaching follows the active module's evidence.
+The [charter](../course/CHARTER.md) owns the teaching agreement; the [roadmap](../ROADMAP.md) owns progression. This directory holds the session workflow and prepared sessions; the [decision history](../course/CHANGELOG.md) records course changes. Detailed teaching follows the active module's evidence.
 
 ## Prepare and teach
 
@@ -19,6 +19,6 @@ At weekly review, inspect a demonstrable increment or reproducible experiment an
 
 ## Ownership and publishing
 
-Course design and source selections live in this repository. Each learner's tasks, status, dates, hours and evidence live in their own progress record; this repository's learner uses Obsidian, indexed from [my-progress](../my-progress/README.md). Exercise locations are selected at assignment; planning does not write learner solutions. Schedule changes need the charter's agreed review.
+Course design and source selections live in this repository. Each learner's tasks, status, dates, hours and evidence live in their own progress record. Exercise locations are selected at assignment; planning does not write learner solutions. Schedule changes need the charter's agreed review.
 
 Source repositories are pinned under [materials](../materials/README.md). Checkpoints never follow merely from having the tools installed or materials prepared.

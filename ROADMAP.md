@@ -1,6 +1,6 @@
 # Distributed AI Agent Systems — roadmap
 
-Current curriculum: **v1.10, October 17, 2026** — nineteen milestones (M1–M19) in four stages, taught through one evolving project. Each milestone has a [module guide](course/modules/README.md). Milestone IDs are stable across revisions so links and learning credit carry forward; the [decision record](course/DECISIONS.md) explains every change, and [HISTORY.md](HISTORY.md) locates earlier versions. This map is adaptable under the [course charter](course/CHARTER.md).
+Current curriculum: **v1.10, October 17, 2026** — nineteen milestones (M1–M19) in four stages, taught through one evolving project. Each milestone has a [module guide](course/modules/README.md). Milestone IDs are stable across revisions so links and learning credit carry forward; the [decision record](course/CHANGELOG.md) explains every change, and [HISTORY.md](HISTORY.md) locates earlier versions. This map is adaptable under the [course charter](course/CHARTER.md).
 
 ## How the course is taught
 
@@ -12,7 +12,7 @@ A new learner starts at M1 and M2: read the [M1 tool-cycle guide](course/modules
 
 Budget and active-work limits are owned by the charter: 15 hours/week, normally 10 core/labs, 3 project and 2 exploration, with one primary module and one active course project. New project options have no dates until activated. The [workload forecast](course/WORKLOAD.md) estimates remaining scope and counts overlap once. No overall finish date is promised.
 
-Progress, dates and learning evidence live with the learner, not in the course plan. This repository's own learner keeps theirs in Obsidian, indexed from [my-progress](my-progress/README.md).
+Progress, dates and learning evidence live with the learner, not in the course plan. Keep them in your own planning system or a gitignored `private/` folder.
 
 ## One project connects the course
 

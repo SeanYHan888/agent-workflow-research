@@ -10,7 +10,7 @@ Use up to the normal two-hour exploration allowance for a first investigation. M
 
 ## Idea register
 
-Keep the register with the learner, not in the course: one row per idea using the template below. This repository's learner keeps theirs in [my-progress/ideas](../my-progress/ideas/README.md). Ideas accepted into required scope appear in the [roadmap](../ROADMAP.md) and [decision record](DECISIONS.md), not as pending rows.
+Keep the register with the learner, not in the course: one row per idea using the template below. Ideas accepted into required scope appear in the [roadmap](../ROADMAP.md) and [changelog](CHANGELOG.md), not as pending rows.
 
 ## Record template
 

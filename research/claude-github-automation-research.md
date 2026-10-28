@@ -49,11 +49,15 @@ By default, actors need repository write access and bots are rejected unless all
 
 Documentation caveat: the FAQ's claim that the official app lacks workflow-write permission conflicts with the current product docs, which list that permission. Do not use the FAQ as the current app-install permission inventory; inspect the installation screen and current docs before enabling it. [Current app permissions](https://code.claude.com/docs/en/github-actions#github-app-permissions)
 
+## A bounded first pilot
 
-These are recommendations using the existing pilot brief, not verified installed behavior in that repository:
+Recommendations for any repository the learner owns, not verified installed behavior:
 
+1. Settle the issue's scope decision before triggering; a trigger cannot resolve what the product ought to do.
+2. Approve one small backend slice, then its matching UI slice, using synthetic data.
 3. Define an issue template containing acceptance checks, permitted scope, reproducible checks and stop conditions.
-4. Use one trusted trigger, one bounded run and explicit branch/base settings. Preserve `<prefix>/<slug>` and draft PR target `test`; the action exposes `base_branch` and `branch_prefix` inputs. [Configuration reference](https://github.com/anthropics/claude-code-action/blob/main/docs/usage.md)
+4. Use one trusted trigger, one bounded run and explicit branch/base settings; the action exposes `base_branch` and `branch_prefix` inputs. [Configuration reference](https://github.com/anthropics/claude-code-action/blob/main/docs/usage.md)
+5. Implement automatic draft-PR creation and verification as explicit workflow steps. Keep data/access decisions and merge/deployment with the human initially.
 6. Measure actual intervention count, passed checks, unresolved review findings and run cost before building a custom controller.
 
 This can test the autonomous-development idea using GitHub as the initial job interface. It does not require finishing the Linux course or implementing Redis/RQ first.

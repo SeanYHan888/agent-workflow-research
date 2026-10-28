@@ -17,7 +17,7 @@ The page for one milestone in `course/modules/`: checkpoints, labs, failure expe
 _Avoid_: A second roadmap
 
 **Progress record**:
-The learner's own tasks, dates, hours and evidence, kept outside the course files (`my-progress/` for this repository's learner).
+The learner's own tasks, dates, hours and evidence, kept outside the course files, for example in Obsidian or a gitignored `private/` folder.
 _Avoid_: Course requirements
 
 **Section**:

@@ -66,19 +66,19 @@ This is a first bottom-up planning envelope, not an empirical prediction. A lowe
 
 The normal **15h week** provides **13h directed work** (10 core/labs + 3 project) and **2h exploration**. Thus 609–943 directed hours imply approximately **47–73 active study weeks** before contingency. A provisional **20% revision/recovery allowance** gives approximately 731–1132 directed hours, or **56–87 active study weeks**, plus explicit breaks. These are planning ranges, not an agreed finish date. The allocation between core and project work can be adjusted explicitly within the total; a project-slot bottleneck can lengthen the calendar.
 
-The confirmed September 28–October 11 relocation/conference break contributes zero required hours and creates no catch-up debt. Required study resumes October 12 under the [September 30 reschedule](../my-progress/schedule/2026-09-30-RELOCATION-RESCHEDULE.md). Optional conference notes may enter idea intake later; attendance is not automatically course assessment evidence. The old foundation project's last date is not graduation from the expanded program.
+Planned breaks contribute zero required hours and create no catch-up debt; record them, and the date study resumes, in the learner's own plan.
 
 ## Make projects small enough to execute
 
 Keep one primary module and one bounded practical project. Milestone-hour estimates are not permission to put 60–110 hours into a three-week side project. At the usual three project hours/week, a practical slice can use at most nine hours; a primary teaching block has its separately allocated core/lab time.
 
-Before activation, write a useful independent deliverable, entry evidence, estimated hours, acceptance test and owner. Split a larger section into separate project owners before scheduling it; preserve its tasks and evidence through the vault's structural-change workflow. The current Linux/coordination backlog particularly needs subdivision before activation. Calendar labels alone cannot make that backlog fit a 30-hour sprint.
+Before activation, write a useful independent deliverable, entry evidence, estimated hours, acceptance test and owner. Split a larger section into separate project owners before scheduling it; preserve its tasks and evidence through the learner's planning system's structural-change workflow. The current Linux/coordination backlog particularly needs subdivision before activation. Calendar labels alone cannot make that backlog fit a 30-hour sprint.
 
 Use rolling planning: commit the next two study weeks, use a third week only as an explicit bounded completion/review window, and keep distant dates provisional or unassigned. If an initial diagnostic shows the active scope cannot fit, split it at entry instead of repeatedly extending its deadline. Resource-completion work remains owned and visible when capability practice is split.
 
 ## Evidence needed at restart
 
-The teacher has inspected the current project logs, not administered a new test. M1 is credited; M2 onward remain unassessed unless the learner supplies newer evidence. Begin with the [45-minute restart diagnostic](../my-progress/RESTART-DIAGNOSTIC.md), inspect the actual Boot.dev checkpoint, and revise the remaining-hour estimate. No learner task is completed by preparing this forecast.
+Before restarting after a gap, inspect the learner's actual work rather than dates or prepared material. Credit only demonstrated checkpoints, then run a short diagnostic of the next milestone's entry skills and start the first build increment from what it shows.
 
 At each weekly review, record actual focused hours, one explanation/artifact and the smallest remaining gap in the owning project. At a milestone assessment, replace that row's forecast with demonstrated work plus a new estimate for unmet criteria. Changes to agreed deadlines still follow the charter.
 

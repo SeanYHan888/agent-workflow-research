@@ -7,3 +7,6 @@ __pycache__/
 !.env.sample
 *.pem
 *.key
+
+# Learner-specific notes, schedules, owners and operations (never commit)
+private/

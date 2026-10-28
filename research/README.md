@@ -9,7 +9,6 @@ These investigations preserve findings and open questions. Inclusion here does n
 | [Five agent-skill collections](agent-skills-review-2026-10-16.md) | October 16 review of Matt Pocock, pstack, HumanLayer, Emil Kowalski and Addy Osmani; current per-skill purposes, dependencies and M18 selections |
 | [Matt Pocock skills](matt-pocock-skills-course-fit.md) | Source-pinned survey of eleven engineering skills for M11, including review-coverage limits |
 | [Cua course fit](cua-course-fit.md) | I006 optional computer-use lab; runtime feasibility and bounded experiment |
-| [Oracle folder retirement](../my-progress/operations/oracle-folder-retirement.md) | Source preservation, migrated paused monitor and folder retirement record |
 | [Autonomous job pipeline](autonomous-job-pipeline-plan.md) | Applied-project proposal for coding/research jobs, within the course project allocation when selected |
 | [Claude Tag](claude-tag-workflow-investigation.md) | Dated investigation of an existing execution route |
 | [GitHub automation](claude-github-automation-research.md) | Dated issue-triggered workflow comparison |

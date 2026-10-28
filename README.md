@@ -17,7 +17,7 @@ Then:
 1. Read the [charter](course/CHARTER.md) for how the course adapts and the 15-hour weekly budget.
 2. Skim the [roadmap](ROADMAP.md): four stages, nineteen milestones and the project route.
 3. Start with [M1 — the agent tool cycle](course/modules/agent-tool-cycle.md) and [M2 — programs and processes](course/modules/programs-and-processes.md).
-4. Keep your own progress record (tasks, dates, evidence) outside the course files; [my-progress](my-progress/README.md) shows one learner's.
+4. Keep your own progress record (tasks, dates, evidence) outside the course files, for example in a `private/` folder, which this repository's `.gitignore` already excludes.
 
 No formal prerequisites beyond a computer and a terminal. The course teaches JavaScript/TypeScript, Node, Bash, Python where needed, Rust, and the mathematics and systems theory as it goes; short diagnostics decide where each learner enters and credit what they already know.
 
@@ -26,13 +26,12 @@ No formal prerequisites beyond a computer and a terminal. The course teaches Jav
 | Folder | Contents |
 |---|---|
 | [ROADMAP.md](ROADMAP.md) | Milestones, project route, dependencies, subject boundaries |
-| [course/](course/CHARTER.md) | Charter, [assessment rubric](course/ASSESSMENT.md), [workload forecast](course/WORKLOAD.md), [project catalog](course/PROJECTS.md), [idea intake](course/IDEAS.md), [decision record](course/DECISIONS.md) |
+| [course/](course/CHARTER.md) | Charter, [assessment rubric](course/ASSESSMENT.md), [workload forecast](course/WORKLOAD.md), [project catalog](course/PROJECTS.md), [idea intake](course/IDEAS.md), [changelog](course/CHANGELOG.md) |
 | [course/modules/](course/modules/README.md) | One guide per milestone: checkpoints, labs, failure experiments, materials |
 | [course/projects/](course/projects/agentic-linux-distribution.md) | The distribution capstone brief and bounded course projects |
 | [materials/](materials/README.md) | Reading maps per milestone, [pinned source repositories](materials/README.md#source-repositories), [online resource index](materials/online-resources.md), version records |
 | [teaching/](teaching/README.md) | Session workflow for the teacher (human or agent) and a worked session |
 | [research/](research/README.md) | Tool investigations behind course choices: harness edit tools, skills repositories, MCP, Cua, university course fit |
-| [my-progress/](my-progress/README.md) | One learner's schedule, ideas, VPS operations and practice work — not part of the course |
 | [GLOSSARY.md](GLOSSARY.md) · [HISTORY.md](HISTORY.md) | Course vocabulary · where earlier plans and snapshots went |
 
 ## The milestones

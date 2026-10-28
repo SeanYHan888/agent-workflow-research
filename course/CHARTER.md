@@ -1,6 +1,6 @@
 # Distributed AI Agent Systems — course charter
 
-Adopted September 28, 2026. This is the current teaching agreement. The [roadmap](../ROADMAP.md) defines curriculum; [decisions](DECISIONS.md) records why it changes.
+Adopted September 28, 2026. This is the current teaching agreement. The [roadmap](../ROADMAP.md) defines curriculum; [decisions](CHANGELOG.md) records why it changes.
 
 ## Destination and scope
 
@@ -63,9 +63,8 @@ Milestone IDs are stable references. Add a new ID for a new destination; retire 
 | [Materials](../materials/README.md) | Resource roles, source references and historical pins |
 | [Teaching](../teaching/README.md) | Lesson preparation, original handouts and decisions |
 | [Research](../research/README.md) | Investigations and proposals; inclusion does not make them required |
-| [VPS operations](../my-progress/operations/vps/README.md) | Operational observations, provider decisions and monitoring continuity; not a second course task list |
 | Obsidian reading room | Live overview, student readings and annotations |
 | Owning Obsidian project notes | Tasks, status, dates, hours and learning evidence |
 | Archive | Historical evidence and superseded plans |
 
-The classroom is not a second progress tracker. Each learner reaches current project state through their own progress record (this repository's learner: [my-progress](../my-progress/OWNERS.md)). Earlier pages and snapshots are located through [HISTORY.md](../HISTORY.md).
+The classroom is not a second progress tracker. Each learner reaches current project state through their own progress record. Earlier pages and snapshots are located through [HISTORY.md](../HISTORY.md).
