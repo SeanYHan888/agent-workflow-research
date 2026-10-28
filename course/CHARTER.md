@@ -1,6 +1,6 @@
 # Distributed AI Agent Systems — course charter
 
-Adopted September 28, 2026. This is the current teaching agreement. The [roadmap](../ROADMAP.md) defines curriculum; [decisions](../teaching/DECISIONS.md) records why it changes.
+Adopted September 28, 2026. This is the current teaching agreement. The [roadmap](../ROADMAP.md) defines curriculum; [decisions](DECISIONS.md) records why it changes.
 
 ## Destination and scope
 
@@ -14,7 +14,7 @@ Kernel development, implementing a complete network stack, Python native extensi
 
 Total capacity is **15 focused hours/week**, normally 10 core study/labs, 3 course-project work and 2 exploration. Assessments and review are included. Count shared work once. Unused exploration time returns to core work. No additional build lane is implied.
 
-Keep one primary learning module and one active course project. A lab may be the practical work of that module, not a second independent project. Observe the vault's global project limits as well. Each execution project must have a useful deliverable within 21 calendar days at its allocated capacity. A three-hour/week project slot supplies at most nine hours across three weeks; split larger proposals instead of giving them implausible dates. A milestone or stage may contain several projects.
+Keep one primary learning module and one active course project. A lab may be the practical work of that module, not a second independent project. Observe any global project limits in the learner's own planning system as well. Each execution project must have a useful deliverable within 21 calendar days at its allocated capacity. A three-hour/week project slot supplies at most nine hours across three weeks; split larger proposals instead of giving them implausible dates. A milestone or stage may contain several projects.
 
 At the weekly review, inspect actual evidence and hours, pick the next core question, project slice and exploration, and name displaced work. At milestone boundaries, assess mastery and review the forecast. Detailed near-term assignments follow observed prerequisites; later stages remain forecasts. Existing deadline changes require the review below. There is no agreed finish date for the expanded program. The [workload forecast](WORKLOAD.md) supplies provisional effort ranges; actual evidence and hours refine them.
 
@@ -63,9 +63,9 @@ Milestone IDs are stable references. Add a new ID for a new destination; retire 
 | [Materials](../materials/README.md) | Resource roles, source references and historical pins |
 | [Teaching](../teaching/README.md) | Lesson preparation, original handouts and decisions |
 | [Research](../research/README.md) | Investigations and proposals; inclusion does not make them required |
-| [VPS operations](../operations/vps/README.md) | Operational observations, provider decisions and monitoring continuity; not a second course task list |
+| [VPS operations](../my-progress/operations/vps/README.md) | Operational observations, provider decisions and monitoring continuity; not a second course task list |
 | Obsidian reading room | Live overview, student readings and annotations |
 | Owning Obsidian project notes | Tasks, status, dates, hours and learning evidence |
 | Archive | Historical evidence and superseded plans |
 
-The classroom is not a second progress tracker. Use the live course overview to reach current project state. Root compatibility pages preserve old links; edit their canonical destinations.
+The classroom is not a second progress tracker. Each learner reaches current project state through their own progress record (this repository's learner: [my-progress](../my-progress/OWNERS.md)). Earlier pages and snapshots are located through [HISTORY.md](../HISTORY.md).

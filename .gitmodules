@@ -1,0 +1,105 @@
+[submodule "materials/sources/agents/learn-claude-code"]
+	path = materials/sources/agents/learn-claude-code
+	url = https://github.com/shareAI-lab/learn-claude-code.git
+[submodule "materials/sources/agents/pi"]
+	path = materials/sources/agents/pi
+	url = https://github.com/earendil-works/pi.git
+[submodule "materials/sources/agents/tau"]
+	path = materials/sources/agents/tau
+	url = https://github.com/huggingface/tau.git
+[submodule "materials/sources/agents/nanocode"]
+	path = materials/sources/agents/nanocode
+	url = https://github.com/1rgs/nanocode.git
+[submodule "materials/sources/agents/mini-swe-agent"]
+	path = materials/sources/agents/mini-swe-agent
+	url = https://github.com/SWE-agent/mini-swe-agent.git
+[submodule "materials/sources/agents/claude-code"]
+	path = materials/sources/agents/claude-code
+	url = https://github.com/anthropics/claude-code.git
+[submodule "materials/sources/agents/t3code"]
+	path = materials/sources/agents/t3code
+	url = https://github.com/pingdotgg/t3code.git
+[submodule "materials/sources/skills/mattpocock-skills"]
+	path = materials/sources/skills/mattpocock-skills
+	url = https://github.com/mattpocock/skills.git
+[submodule "materials/sources/skills/addyosmani-agent-skills"]
+	path = materials/sources/skills/addyosmani-agent-skills
+	url = https://github.com/addyosmani/agent-skills.git
+[submodule "materials/sources/skills/cursor-plugins"]
+	path = materials/sources/skills/cursor-plugins
+	url = https://github.com/cursor/plugins.git
+[submodule "materials/sources/skills/emilkowalski-skills"]
+	path = materials/sources/skills/emilkowalski-skills
+	url = https://github.com/emilkowalski/skills.git
+[submodule "materials/sources/skills/humanlayer-skills"]
+	path = materials/sources/skills/humanlayer-skills
+	url = https://github.com/humanlayer/skills.git
+[submodule "materials/sources/mcp/specification"]
+	path = materials/sources/mcp/specification
+	url = https://github.com/modelcontextprotocol/specification.git
+[submodule "materials/sources/mcp/typescript-sdk"]
+	path = materials/sources/mcp/typescript-sdk
+	url = https://github.com/modelcontextprotocol/typescript-sdk.git
+[submodule "materials/sources/mcp/inspector"]
+	path = materials/sources/mcp/inspector
+	url = https://github.com/modelcontextprotocol/inspector.git
+[submodule "materials/sources/javascript/you-dont-know-js"]
+	path = materials/sources/javascript/you-dont-know-js
+	url = https://github.com/getify/You-Dont-Know-JS.git
+[submodule "materials/sources/linux/bash-course"]
+	path = materials/sources/linux/bash-course
+	url = https://github.com/bahamas10/bash-course.git
+[submodule "materials/sources/linux/omarchy"]
+	path = materials/sources/linux/omarchy
+	url = https://github.com/omacom/omarchy.git
+[submodule "materials/sources/design/system-design-primer"]
+	path = materials/sources/design/system-design-primer
+	url = https://github.com/donnemartin/system-design-primer.git
+[submodule "materials/sources/design/system-design-101"]
+	path = materials/sources/design/system-design-101
+	url = https://github.com/ByteByteGoHq/system-design-101.git
+[submodule "materials/sources/design/grokking-ood"]
+	path = materials/sources/design/grokking-ood
+	url = https://github.com/tssovi/grokking-the-object-oriented-design-interview.git
+	ignore = dirty
+[submodule "materials/sources/inference/nanochat"]
+	path = materials/sources/inference/nanochat
+	url = https://github.com/karpathy/nanochat.git
+[submodule "materials/sources/inference/nano-vllm"]
+	path = materials/sources/inference/nano-vllm
+	url = https://github.com/GeeeekExplorer/nano-vllm.git
+[submodule "materials/sources/compilers/craftinginterpreters"]
+	path = materials/sources/compilers/craftinginterpreters
+	url = https://github.com/munificent/craftinginterpreters.git
+[submodule "materials/sources/agents/codex"]
+	path = materials/sources/agents/codex
+	url = https://github.com/openai/codex.git
+	update = none
+[submodule "materials/sources/agents/opencode"]
+	path = materials/sources/agents/opencode
+	url = https://github.com/anomalyco/opencode.git
+	update = none
+[submodule "materials/sources/agents/cua"]
+	path = materials/sources/agents/cua
+	url = https://github.com/trycua/cua.git
+	update = none
+[submodule "materials/sources/inference/vllm"]
+	path = materials/sources/inference/vllm
+	url = https://github.com/vllm-project/vllm.git
+	update = none
+[submodule "materials/sources/inference/flash-attention"]
+	path = materials/sources/inference/flash-attention
+	url = https://github.com/Dao-AILab/flash-attention.git
+	update = none
+[submodule "materials/sources/inference/llama.cpp"]
+	path = materials/sources/inference/llama.cpp
+	url = https://github.com/ggml-org/llama.cpp.git
+	update = none
+[submodule "materials/sources/inference/mlx-lm"]
+	path = materials/sources/inference/mlx-lm
+	url = https://github.com/ml-explore/mlx-lm.git
+	update = none
+[submodule "materials/sources/inference/sglang"]
+	path = materials/sources/inference/sglang
+	url = https://github.com/sgl-project/sglang.git
+	update = none

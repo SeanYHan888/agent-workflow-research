@@ -43,6 +43,6 @@ The distribution adds a provisional **18–30h** to M10's existing **35–55h**,
 
 ## Ownership and current state
 
-The live course overview links this direction. The existing GUI note owns T1. The existing team project remains a bounded M7/M10 contributor; its older “final capstone” wording is historical. It does not own this entire distribution backlog.
+The existing GUI collaboration owner owns T1. An existing team project remains a bounded M7/M10 contributor; it does not own this entire distribution. Each execution slice gets its own owner at activation.
 
 Before each slice starts, select or create its one owning project, record the entry evidence and allocated hours, and set dates within the 21-day limit. No new project is active and no release date is promised by this plan. The student's publication goal is recorded; uploading an actual release follows review of the concrete artifact and task-specific publication authorization under the charter.

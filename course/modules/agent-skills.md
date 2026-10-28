@@ -47,7 +47,7 @@ Skills supply instructions; enforcement comes from the harness and operating env
 
 This adds **12–18 directed hours**, using future course capacity under the 15h/week charter cap. It does not add weekly hours or move existing deadlines. The live overview read October 16 records a temporary 10h/week course allocation for October 16–29; use that lower available capacity during activation review, and do not assume the full charter allocation is available.
 
-The existing owner is 智能体指令与技能试验, read through Obsidian on October 16: `later`, no dates, a three-hour minimal instruction/skill experiment, with unchecked tasks. Preserve that experiment as a possible first slice; it does not contain the full new course. At activation, map any genuine overlap once and assign the next bounded slice to an appropriate owner. Do not infer mastery from installed skills.
+If the learner already has a small instruction/skill experiment, preserve it as a possible first slice; it does not contain the full module. Assign the M18 owner at activation.
 
 Use at most 6–9 project hours per execution slice and a useful result within 21 days at the actual allocation; reduce scope if the temporary capacity is smaller. Any remaining instruction comes from the primary module's core/lab allocation. Identify displaced work at activation rather than running a second module concurrently. No new project, date, installation, remote deployment or completion is created by this course brief.
 

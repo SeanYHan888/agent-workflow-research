@@ -1,30 +1,52 @@
 # Distributed AI Agent Systems
 
-A project-first course for learning to build and operate a safe, lightweight agent-first Linux distribution across remote VPS nodes. Start with a controllable runner and develop useful components, experiments and explanations through the [project route](ROADMAP.md#project-route). Each session uses a learner attempt, focused teaching, a failure check and a demonstrable result.
+A project-first course on agentic workflows and Linux systems. You learn how coding agents work (the tool loop, harnesses, skills, MCP), how to build and evaluate one, and the Linux, networking, distributed-systems and inference foundations needed to run agents safely across machines. One project carries the whole course: a controllable runner grows into a typed agent, a supervised Linux worker, durable work across remote nodes and finally a published, lightweight **agent-first Linux distribution** for small VPS nodes.
 
-**15 hours/week:** 10 core study/labs, 3 project work, 2 exploration. The curriculum can change deliberately while preserving essential outcomes and demonstrated learning.
+Every session is a small build, debugging task or experiment: the learner attempts it first, the missing concept is taught at the point of need, and the session ends with observed behavior and the learner's own explanation.
 
-| Need | Open |
+## Get started
+
+```bash
+git clone --recursive <this-repository-url>
+```
+
+The `--recursive` flag fetches the pinned source repositories the course reads (Pi, mini-swe-agent, learn-claude-code, the MCP SDK, the skills collections, nanochat and others). See [materials](materials/README.md#get-the-materials) for the optional large ones and for adding them to an existing clone.
+
+Then:
+
+1. Read the [charter](course/CHARTER.md) for how the course adapts and the 15-hour weekly budget.
+2. Skim the [roadmap](ROADMAP.md): four stages, nineteen milestones and the project route.
+3. Start with [M1 — the agent tool cycle](course/modules/agent-tool-cycle.md) and [M2 — programs and processes](course/modules/programs-and-processes.md).
+4. Keep your own progress record (tasks, dates, evidence) outside the course files; [my-progress](my-progress/README.md) shows one learner's.
+
+No formal prerequisites beyond a computer and a terminal. The course teaches JavaScript/TypeScript, Node, Bash, Python where needed, Rust, and the mathematics and systems theory as it goes; short diagnostics decide where each learner enters and credit what they already know.
+
+## What's here
+
+| Folder | Contents |
 |---|---|
-| Hands-on project route, milestones and prerequisites | [Roadmap](ROADMAP.md) |
-| Estimated effort, overlap and capacity | [Workload forecast](course/WORKLOAD.md) |
-| Teaching agreement and how the course adapts | [Charter](course/CHARTER.md) |
-| Live schedule, tasks and learning evidence | Obsidian course overview |
-| Connect, expose and secure agent tools with MCP | [Model Context Protocol — M19](course/modules/mcp.md) |
-| Design, evaluate and maintain reusable agent skills | [Agent Skills — M18](course/modules/agent-skills.md) · [Five-repository review](research/agent-skills-review-2026-10-16.md) |
-| Git/GitHub, PRs, reviews, ADRs, TDD and mistake recovery | [Engineering practice — M11](course/modules/engineering-practice.md) |
-| RabbitMQ, Kafka and reliable messaging | [Message brokers — M7](course/modules/message-brokers.md) |
-| Oracle status, VPS recommendations and monitoring | [VPS operations home](operations/vps/README.md) |
-| Required evidence and reassessment | [Assessment](course/ASSESSMENT.md) |
-| Projects, entry gates and progress owners | [Project catalog](course/PROJECTS.md) |
-| A new idea, including renting a VPS | [Idea intake](course/IDEAS.md) · [Imported VPS roadmap](course/projects/vps-lab-roadmap.md) |
-| MIT and Stanford course placement | [University integration map](materials/university-course-integration.md) |
-| What to read and why | [Material shelf](materials/README.md) |
-| Teaching preparation and course decisions | [Teaching office](teaching/README.md) |
-| Tool investigations and proposals | [Research index](research/README.md) |
-| Resume teaching in a new chat | [Project context](PROJECT-CONTEXT.md) |
-| Definitions | [Glossary](CONTEXT.md) |
+| [ROADMAP.md](ROADMAP.md) | Milestones, project route, dependencies, subject boundaries |
+| [course/](course/CHARTER.md) | Charter, [assessment rubric](course/ASSESSMENT.md), [workload forecast](course/WORKLOAD.md), [project catalog](course/PROJECTS.md), [idea intake](course/IDEAS.md), [decision record](course/DECISIONS.md) |
+| [course/modules/](course/modules/README.md) | One guide per milestone: checkpoints, labs, failure experiments, materials |
+| [course/projects/](course/projects/agentic-linux-distribution.md) | The distribution capstone brief and bounded course projects |
+| [materials/](materials/README.md) | Reading maps per milestone, [pinned source repositories](materials/README.md#source-repositories), [online resource index](materials/online-resources.md), version records |
+| [teaching/](teaching/README.md) | Session workflow for the teacher (human or agent) and a worked session |
+| [research/](research/README.md) | Tool investigations behind course choices: harness edit tools, skills repositories, MCP, Cua, university course fit |
+| [my-progress/](my-progress/README.md) | One learner's schedule, ideas, VPS operations and practice work — not part of the course |
+| [GLOSSARY.md](GLOSSARY.md) · [HISTORY.md](HISTORY.md) | Course vocabulary · where earlier plans and snapshots went |
 
-The repository owns course design; Obsidian owns live progress. Detailed lessons are prepared for the active module. Root files headed “Moved” are compatibility links; edit their canonical destinations. Historical plans and the original conversation remain preserved in `archive/` and `CHAT-HISTORY.md`.
+## The milestones
 
-The curriculum has an initial [workload forecast](course/WORKLOAD.md) and a prepared [restart diagnostic](teaching/RESTART-DIAGNOSTIC.md). Calendar changes are recorded in the [conference/restart review](teaching/2026-09-28-SCHEDULE-REVIEW.md); the owning Obsidian notes remain authoritative. Use one primary reading path and reuse existing artifacts before adding material. [September 28 audit and cleanup](archive/2026-09-28-course-cleanup/README.md) records the remaining planning gaps; [archive guide](archive/README.md) distinguishes history from current instructions.
+| Stage | Milestones |
+|---|---|
+| I. Foundations | M1 agent tool cycle · M2 programs and processes · M3 typed agent · M11 engineering practice · M13 computer organization · M14 algorithms · M15 discrete mathematics · M16 programming paradigms |
+| I–II. Agent workflows | M18 agent skills · M19 Model Context Protocol |
+| II. Reliable single-host systems | M4 agent harnesses · M5 Linux, OS, networks and security · M6 model inference · M12 Rust and a small compiler |
+| III. Distributed systems | M7 durable distributed work and message brokers · M8 Kubernetes · M9 efficient and distributed inference |
+| II–IV. Agentic Linux and capstone | M17 T3 Code and Omarchy Quattro · M10 publish and defend an agent-first Linux distribution |
+
+Estimated total: 609–943 directed hours at about 15 hours a week ([forecast](course/WORKLOAD.md)). Milestones are learning destinations, not calendar dates; each is assessed by a working artifact, the learner's explanation and an unfamiliar change ([rubric](course/ASSESSMENT.md)).
+
+## For agents teaching this course
+
+[AGENTS.md](AGENTS.md) holds the standing instructions: teach through learner attempts, keep milestone changes under the charter's change process, and never complete the learner's exercises.

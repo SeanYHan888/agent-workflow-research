@@ -5,12 +5,20 @@ Shared language for organizing study and reviewing learning in this course.
 ## Language
 
 **Classroom**:
-The workspace containing the course plan, teaching preparation, original handouts and material references.
+This repository: the course plan, module guides, teaching workflow and pinned materials, written for any learner.
 _Avoid_: A second progress tracker
 
 **Reading room**:
-The student's Obsidian course folder containing assigned readings, handouts and links to the project that owns each assignment.
+A learner's own course folder (for this repository's learner, in Obsidian) containing assigned readings, handouts and links to the project that owns each assignment.
 _Avoid_: Another task backlog
+
+**Module guide**:
+The page for one milestone in `course/modules/`: checkpoints, labs, failure experiments and ordered materials. It elaborates the roadmap row and never adds a required outcome.
+_Avoid_: A second roadmap
+
+**Progress record**:
+The learner's own tasks, dates, hours and evidence, kept outside the course files (`my-progress/` for this repository's learner).
+_Avoid_: Course requirements
 
 **Section**:
 A stage of the course with a concrete capability and a checkpoint required before dependent work.

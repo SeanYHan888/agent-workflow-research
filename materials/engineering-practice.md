@@ -18,9 +18,9 @@ For [M11](../course/modules/engineering-practice.md). Sources inspected Septembe
 
 The follow-up [Matt Pocock workflow survey](../research/matt-pocock-skills-course-fit.md) inspects eleven upstream skill bodies at a pinned revision and confirms that all eleven installed copies match. It maps the workflow to M11 and explains a composition hazard: review before committing can miss the implementation when the review only compares committed `...HEAD` changes. Use this as an E5 exercise in checking the exact review scope.
 
-- [Local TDD skill](<~/.agents/skills/tdd/SKILL.md>): behavioral tests through agreed public boundaries; small red/green slices; refactoring assigned to review in this installed version.
-- [Local code-review skill](<~/.agents/skills/code-review/SKILL.md>): specification and standards as distinct review axes, using a named comparison base.
-- [Local domain-modeling skill](<~/.agents/skills/domain-modeling/SKILL.md>): precise vocabulary and sparing use of ADRs for meaningful tradeoffs.
+- [TDD skill](sources/skills/mattpocock-skills/skills/engineering/tdd/SKILL.md): behavioral tests through agreed public boundaries; small red/green slices; refactoring assigned to review in the pinned version.
+- [Code-review skill](sources/skills/mattpocock-skills/skills/engineering/code-review/SKILL.md): specification and standards as distinct review axes, using a named comparison base.
+- [Domain-modeling skill](sources/skills/mattpocock-skills/skills/engineering/domain-modeling/SKILL.md): precise vocabulary and sparing use of ADRs for meaningful tradeoffs.
 
 These are reading references for this curricular update, not invocations of their implementation/review procedures. During a real exercise, honor the applicable repository instructions and the selected skill's actual scope. Running a skill does not establish that its prerequisites were met or its output was accepted.
 

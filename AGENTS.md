@@ -1,8 +1,16 @@
 # Course work
 
-For teaching, course planning, new study ideas or course projects, read [the charter](course/CHARTER.md) and [the roadmap](ROADMAP.md). For a new idea, follow [idea intake](course/IDEAS.md); for assessment, use [the rubric](course/ASSESSMENT.md). Check the owning Obsidian note before assigning work or recording progress. [Project context](PROJECT-CONTEXT.md) identifies the live entry point.
+For teaching, course planning, new study ideas or course projects, read [the charter](course/CHARTER.md) and [the roadmap](ROADMAP.md). For a new idea, follow [idea intake](course/IDEAS.md); for assessment, use [the rubric](course/ASSESSMENT.md). Before assigning work or recording progress, find the owning Obsidian note through [progress owners](my-progress/OWNERS.md) and read it. [Project context](my-progress/PROJECT-CONTEXT.md) identifies the live entry point.
 
 Maintain the agreed 15-hour weekly budget and preserve demonstrated learning. Routine material selection and equivalent exercise substitutions are delegated to the teacher. Changes to required milestones, core outcomes or agreed milestone deadlines need student agreement under the charter's change process. Teach through learner attempts and feedback; planning does not authorize completing the student's exercises.
+
+## Repository layout
+
+- The course is shareable: `ROADMAP.md`, `course/`, `materials/` and `teaching/` are written for any learner. Put this learner's schedule, dates, Obsidian links, owner status, ideas, personal projects, VPS operations and practice work in `my-progress/`; course pages state the general rule instead.
+- Each milestone's guide is in [course/modules/](course/modules/README.md); add milestone material there and in `materials/`.
+- Third-party sources are pinned Git submodules under `materials/sources/`. Read them in place; change a pin only as a recorded material change in [materials/versions.md](materials/versions.md).
+- Git history is the snapshot record. Before a curriculum change, commit the current state and cite that commit in [the decision record](course/DECISIONS.md); [HISTORY.md](HISTORY.md) locates earlier snapshots.
+- Link repository files with relative paths.
 
 ## Project-first teaching
 

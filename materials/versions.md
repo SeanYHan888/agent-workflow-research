@@ -1,8 +1,22 @@
 # Material versions
 
+## Pi updated to v1.4.0 — October 27, 2026
+
+At the student's request Pi moved from `71dca871bc80` (coding-agent 0.85.1, September 11) to the **v1.4.0** release tag, `4a080252f06c` (October 22), because M19 needs Pi's built-in MCP and Codemode (first shipped in 0.99/1.0). The pin is the release tag rather than main's head so lessons cite a published version.
+
+Rechecked against v1.4.0: M3's Pi contract, validation and loop line ranges were updated in [typed-agent](../course/modules/typed-agent.md); every Pi file the M4 guide links still exists except `packages/server`, which v1.4.0 removed with the other experimental server/client packages, so [agent-harnesses](../course/modules/agent-harnesses.md) now uses RPC mode as the worker interface; [M19](../course/modules/mcp.md) now links Pi's local MCP docs, extension, client and conformance harness. The September 11 notes below describe the earlier revision. `~/Self-learn/pi` was not updated.
+
+## Pinned submodules — October 27, 2026
+
+The seven Mac-only shortcuts into `~/Self-learn` were replaced by Git submodules under [sources/](README.md#source-repositories), so a fresh clone gets the same files. Each was pinned to the commit verified on September 11 (unchanged since): tau `55df51608b8b`, pi `71dca871bc80`, learn-claude-code `0dcafa2ae053`, You Don't Know JS `044120ef5556`, System Design Primer `ae9bbd7b02d9`, System Design 101 `b28380a4710c`, Grokking OOD `ba7927f641f2`. The `~/Self-learn` checkouts were not modified.
+
+Repositories the course already cited at a fixed commit were added at that commit: nanocode `b009d3dbedf1`, mini-swe-agent `04d809ceab9d`, Claude Code public repository `c017428c8c27`, the five M18 skill repositories, Codex `e16b631d08cd`, Cua `1cb7b6fb2415`, YSAP Bash course `0fb288afb1a3` (September 10 check) and nanochat `d5759400f967`. Repositories the course linked without a pin were pinned to their default-branch head on October 27 (T3 Code, MCP specification/TypeScript SDK/Inspector, nano-vllm, Crafting Interpreters, OpenCode, vLLM, FlashAttention, llama.cpp, MLX LM, SGLang); Omarchy was pinned to the `v4.0.0` release the M17 map cites. Those new pins establish reproducibility, not that the pinned revision matches every statement in the course; recheck the assigned section before teaching.
+
+Grokking OOD's case-only `README.md`/`readme.md` collision still applies on case-insensitive filesystems: after checkout Git reports one modified file. Both originals remain in [provenance/grokking-ood-case-collision](provenance/grokking-ood-case-collision/README.md).
+
 ## Verified upstream refresh — September 11, 2026
 
-Ran `git pull --ff-only --no-rebase --no-recurse-submodules --no-autostash` for all seven linked repositories. Then compared each HEAD with `git ls-remote`: all seven match their upstream branch, which is also the remote default branch, as of `2026-09-11T22:03:42.885246+00:00`. Source versions are recorded in [the machine-readable pull report](refresh-2026-09-11.json).
+Ran `git pull --ff-only --no-rebase --no-recurse-submodules --no-autostash` for all seven linked repositories. Then compared each HEAD with `git ls-remote`: all seven match their upstream branch, which is also the remote default branch, as of `2026-09-11T22:03:42.885246+00:00`. Source versions are recorded in [the machine-readable pull report](provenance/refresh-2026-09-11.json).
 
 | Material | Branch | Before | After | Incoming commits |
 |---|---|---|---|---:|
@@ -14,7 +28,7 @@ Ran `git pull --ff-only --no-rebase --no-recurse-submodules --no-autostash` for 
 | system-design-101 | `main` | `b28380a4710c` | `b28380a4710c` | 0 |
 | grokking-ood | `master` | `3d35276091bc` | `ba7927f641f2` | 25 |
 
-All pre-existing untracked files were hash-checked and preserved. Six worktrees retain their prior clean/untracked-only state. **Grokking OOD has an upstream case-only filename collision:** its Java airline example tracks both `README.md` and `readme.md`. This Mac cannot materialize both at once, so Git reports one modified file after the pull. [Both original blobs are preserved separately](grokking-ood-case-collision/README.md). No reset, stash or local commit was used.
+All pre-existing untracked files were hash-checked and preserved. Six worktrees retain their prior clean/untracked-only state. **Grokking OOD has an upstream case-only filename collision:** its Java airline example tracks both `README.md` and `readme.md`. This Mac cannot materialize both at once, so Git reports one modified file after the pull. [Both original blobs are preserved separately](provenance/grokking-ood-case-collision/README.md). No reset, stash or local commit was used.
 
 Pi's updates do not change our selected agent-loop or extension readings. The three selected Grokking OOAD/class/sequence readings are unchanged. Grokking adds implementations, tests and design documents, so the earlier blanket description of its examples as non-executable is no longer sufficient. The root README retains that warning while the new library-example README describes an executable implementation; those implementations/tests were not run by this refresh. Optional reading placement remains appropriate.
 
@@ -28,12 +42,12 @@ Fetched all six existing Git repositories and fast-forwarded their current upstr
 
 | Material | Branch | Before | Current | Incoming commits |
 |---|---|---|---|---:|
-| [Tau](<~/Self-learn/tau>) | `main` | `5b00d95` | `55df516` | 240 |
-| [Pi](<~/Self-learn/pi>) | `main` | `351efc8` | `d12cd92` | 1488 |
-| [learn-claude-code](<~/Self-learn/learn-claude-code>) | `main` | `ec9ea87` | `0dcafa2` | 123 |
-| [System Design Primer](<~/Self-learn/system-design-primer>) | `master` | `b02784f` | `ae9bbd7` | 10 |
-| [System Design 101](<~/Self-learn/system-design-101>) | `main` | `b28380a` | `b28380a` | 0 |
-| [You Don’t Know JS](<~/Self-learn/You-Dont-Know-JS>) | `2nd-ed` | `e3f784b` | `044120e` | 2 |
+| [Tau](<sources/agents/tau>) | `main` | `5b00d95` | `55df516` | 240 |
+| [Pi](<sources/agents/pi>) | `main` | `351efc8` | `d12cd92` | 1488 |
+| [learn-claude-code](<sources/agents/learn-claude-code>) | `main` | `ec9ea87` | `0dcafa2` | 123 |
+| [System Design Primer](<sources/design/system-design-primer>) | `master` | `b02784f` | `ae9bbd7` | 10 |
+| [System Design 101](<sources/design/system-design-101>) | `main` | `b28380a` | `b28380a` | 0 |
+| [You Don’t Know JS](<sources/javascript/you-dont-know-js>) | `2nd-ed` | `e3f784b` | `044120e` | 2 |
 
 Tau’s current package declares **0.4.2**; Pi’s coding-agent package declares **0.85.1**. These are source checkouts; no dependencies or executable installations were changed by Git updates. This verifies freshness, not passing upstream tests or complete pedagogical accuracy.
 

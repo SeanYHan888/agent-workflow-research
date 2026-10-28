@@ -1,12 +1,12 @@
 # Course project catalog
 
-This catalog maps work to learning outcomes. The [charter](CHARTER.md) owns workload/activation rules; Obsidian owns execution tasks, dates and evidence. A catalog entry is not an active assignment. Keep one primary module and one active project; a module's lab can supply its practical work.
+This catalog maps work to learning outcomes. The [charter](CHARTER.md) owns workload/activation rules; The learner's progress record owns execution tasks, dates and evidence. A catalog entry is not an active assignment. Keep one primary module and one active project; a module's lab can supply its practical work.
 
 ## Select the next hands-on slice
 
 Follow the [project route](../ROADMAP.md#project-route), check the current owner's evidence, and define one useful behavior with a normal case and relevant failure case. Name the milestone criterion, entry skills, focused-hour allowance and evidence owner before assignment. Lessons and labs can share an artifact; they do not create parallel project backlogs. The charter's project-first allocation keeps hands-on work inside existing hours.
 
-For the current JS/Node restart, use these incremental choices after the diagnostic. Estimates include explanation, attempts, testing and feedback, and are planning assumptions rather than assigned tasks:
+For a learner entering M2, use these incremental choices after the diagnostic. Estimates include explanation, attempts, testing and feedback, and are planning assumptions rather than assigned tasks:
 
 | Increment | Acceptance evidence | Initial core/lab allowance |
 |---|---|---:|
@@ -14,25 +14,25 @@ For the current JS/Node restart, use these incremental choices after the diagnos
 | Observable fake worker | Launch a fixed harmless command; distinguish failed startup, output and nonzero exit | 5–7h |
 | Controllable runner | Handle a split JSONL record, bound retained output, cancel a slow fixture and establish it stopped | 5–7h |
 
-The combined 14–20h estimate is inside the existing 30h core/lab restart envelope, leaving 10–16h for remaining language-course work and gaps; that allowance is not proof all Boot.dev work fits. Scope only the next ready increment using observed pace. If the whole deliverable does not fit, split remaining execution work before activation and review any affected dates under the charter. Keep the current JS/Node owner, task states and explicit resource-completion goals. The terminal pilot retains its own project allowance.
+The combined 14–20h estimate is a planning assumption; check it against the learner's core/lab allowance and any explicit resource-completion goals. Scope only the next ready increment using observed pace. If the whole deliverable does not fit, split remaining execution work before activation and review any affected dates under the charter.
 
 Later rows are families to split using the same rule, not a sequence of oversized execution projects.
 
 ## Existing project mappings
 
-| Project or project family | Role and milestone | Entry and bounded outcome | Progress owner |
-|---|---|---|---|
-| Tool-cycle orientation | Core M1 | Trace execution and change a dispatcher; preserve demonstrated September 13 evidence | Archived agent loop |
-| JS/Node runner | Core M2 | Relevant JS basics → task-file runner, output and failure handling | JS/Node |
-| Engineering delivery/recovery lab | Required M11, introduced with M2 and practiced through M3/M4 | Read-only Git inspection first; then the [agent review/CI experiment](projects/agent-review-ci-lab.md): one bounded change, seeded defects, deterministic checks, separate review, bounded repair, acceptance and recovery; ADR where justified. Up to 6 project hours over two weeks, inside the full topic's 12–18h. | Reuse the current learning project for a short exercise; assign one owner when a separate bounded lab is activated. [Module](modules/engineering-practice.md) |
-| Small typed agent | Core M3 | Language/async/process checkpoints → validated tools, bounded loop and persistence | TS agent |
-| Source/extension and real-worker adapter | Core M4 | Small-agent understanding → one source trace/extension, then a bounded worker contract | Pi extension · worker adapter |
-| Terminal and GUI collaboration | Required workflow outcomes | One reviewed real task, interruption/resume; later a bounded client/server ownership comparison | Terminal · GUI |
-| Linux/runtime and coordination | Core M5/M7 | Single-host operation first; then durable two-worker recovery. Split overloaded scope at activation/reforecast. | Existing Linux note |
-| Existing-tool team | Core M7; evidence reused in M10 | Bounded coordinated work, separate review and failed-worker recovery; not automatically the expanded capstone | Team project |
-| Daily Task Panel | Elective or equivalent TS exercise | TS unions/narrowing; select a bounded slice from the [lab](projects/typescript-plugin-lab.md). Preserve agent-specific criteria. | Stage 01 |
+| Project or project family | Role and milestone | Entry and bounded outcome |
+|---|---|---|
+| Tool-cycle orientation | Core M1 | Trace execution and change a dispatcher; credit existing demonstrated evidence |
+| JS/Node runner | Core M2 | Relevant JS basics → task-file runner, output and failure handling |
+| Engineering delivery/recovery lab | Required M11, introduced with M2 and practiced through M3/M4 | Read-only Git inspection first; then the [agent review/CI experiment](projects/agent-review-ci-lab.md): one bounded change, seeded defects, deterministic checks, separate review, bounded repair, acceptance and recovery; ADR where justified. Up to 6 project hours over two weeks, inside the full topic's 12–18h. |
+| Small typed agent | Core M3 | Language/async/process checkpoints → validated tools, bounded loop and persistence |
+| Source/extension and real-worker adapter | Core M4 | Small-agent understanding → one source trace/extension, then a bounded worker contract |
+| Terminal and GUI collaboration | Required workflow outcomes | One reviewed real task, interruption/resume; later a bounded client/server ownership comparison |
+| Linux/runtime and coordination | Core M5/M7 | Single-host operation first; then durable two-worker recovery. Split overloaded scope at activation/reforecast. |
+| Existing-tool team | Core M7; evidence reused in M10 | Bounded coordinated work, separate review and failed-worker recovery; not automatically the expanded capstone |
+| Daily Task Panel | Elective or equivalent TS exercise | TS unions/narrowing; select a bounded slice from the [lab](../my-progress/projects/typescript-plugin-lab.md). Preserve agent-specific criteria. |
 
-These links preserve existing ownership; they do not imply unchanged old scopes satisfy every new milestone. Map evidence and explicitly add missing criteria during the approved reforecast. No new completion is recorded by this catalog.
+Each family has one progress owner in the learner's record, named at activation; an existing owner does not imply its old scope satisfies every new milestone. Map evidence and explicitly add missing criteria during the approved reforecast. No new completion is recorded by this catalog.
 
 ## Required systems project families — September 30, 2026
 
@@ -40,8 +40,8 @@ These links preserve existing ownership; they do not imply unchanged old scopes 
 
 | Family | Small independently useful deliverable | Ownership and reuse |
 |---|---|---|
-| M12 compiler | Separately: expression parser; scope/type checker; evaluator; bytecode expressions; branch/call-frame extension; one optimization; tiny backend experiment | Assign only the next owner at activation. Optional existing Rust CLI can demonstrate part of R1; do not duplicate its tasks or treat it as all of M12. |
-| M5 OS/network/security | One process/pipe diagnosis; one memory/synchronization experiment; framed socket service; packet/failure report; one access-boundary verification | Existing Linux/coordination note retains ownership until an authorized split. Its old 30h envelope cannot contain the expanded M5/M7 scope. |
+| M12 compiler | Separately: expression parser; scope/type checker; evaluator; bytecode expressions; branch/call-frame extension; one optimization; tiny backend experiment | Assign only the next owner at activation. An existing small Rust CLI can demonstrate part of R1; do not duplicate its tasks or treat it as all of M12. |
+| M5 OS/network/security | One process/pipe diagnosis; one memory/synchronization experiment; framed socket service; packet/failure report; one access-boundary verification | An existing Linux/coordination owner keeps ownership until an authorized split; a small earlier envelope cannot contain the expanded M5/M7 scope. |
 | M7 storage | Append-log KV fixture and, separately, crash/torn-record recovery; transaction-history comparison | Assign a bounded owner at activation; reuse the N1 protocol fixture and M7 failure histories where appropriate. No production database rewrite required. |
 | Python extensions / embedded | A later measured native-extension or simulated device experiment | Electives only, with their own scope/time decision; no required hours or activation. |
 
@@ -57,7 +57,7 @@ Use [one bounded task-lifecycle/retry-policy component](modules/programming-para
 
 | Option | Course fit | Smallest next deliverable | Status |
 |---|---|---|---|
-| VPS lab | M5, preparatory M2 exploration | [Imported VPS roadmap](projects/vps-lab-roadmap.md), using prior Oracle/Tailscale/Herdr context; I001 exploration then a bounded remote-service slice | Existing VPS tasks belong to the Linux project above; The old VPS plan is stopped and its Oracle monitor deleted; wait for replacement-host details. [VPS operations and recommendations](../operations/vps/README.md) now live here; reuse or explicitly split course task ownership during reforecast. |
+| VPS lab | M5, preparatory M2 exploration | One bounded remote-service slice on an authorized host | Not activated; existing VPS tasks stay with the Linux owner. Provider choice and paid hosts need their own authorization. |
 | Inference experiments | M6/M9 | One generation/cache experiment, then separately scoped serving/benchmark labs | Materials selected; create project owners when activated |
 | RabbitMQ reliable-job lab | Required M7 B2 | Up to 6h / two project weeks: two workers, confirms/acks, bounded retries, crash/duplicate effect checks | [Broker module](modules/message-brokers.md); unscheduled, owner assigned at activation; no duplicate Linux tasks |
 | Kafka lifecycle/replay lab | Required M7 B3 | Separate up to 6h / two project weeks: independent groups, retained replay, offset/crash behavior and projection checks | Runs after the prior lab, using one active project slot; no cluster purchase implied |
@@ -69,7 +69,7 @@ Use [one bounded task-lifecycle/retry-policy component](modules/programming-para
 
 ## Brief required for an activated project
 
-Name its milestone or elective purpose; entry evidence; one independently useful deliverable; in/out scope; acceptance cases; estimated focused hours; allocated weekly hours; affected work; existing/new Obsidian owner; resource and external-action constraints. Keep execution checkboxes only in that owner. At three hours/week, a 12–15-hour elective needs smaller slices or an explicitly reallocated budget to fit the 21-day rule.
+Name its milestone or elective purpose; entry evidence; one independently useful deliverable; in/out scope; acceptance cases; estimated focused hours; allocated weekly hours; affected work; existing/new progress owner; resource and external-action constraints. Keep execution checkboxes only in that owner. At three hours/week, a 12–15-hour elective needs smaller slices or an explicitly reallocated budget to fit the 21-day rule.
 
 Projects can change with the course. Revise the brief and milestone mapping, retain valid evidence, and use the charter's change review when required outcomes or agreed deadlines would change. Do not quietly turn an optional product deliverable into a graduation requirement.
 
@@ -79,7 +79,7 @@ The [M17 course](modules/agentic-linux.md) and [M10 distribution brief](projects
 
 | Slice | Budget and useful result | Ownership |
 |---|---|---|
-| T1 request/source trace | Existing M4 GUI allocation; one explained request path | Existing GUI note above; preserve its tasks and evidence. |
+| T1 request/source trace | Existing M4 GUI allocation; one explained request path | The existing GUI collaboration owner; preserve its tasks and evidence. |
 | T2 Linux service | 6–9h; observed lifecycle, denied action and recovery | New bounded owner at activation; reuse M5 foundations. |
 | Q1 Quattro trace | 6–9h; one explained desktop-to-OS action | New bounded owner at activation. |
 | Q2 reversible extension | 6–9h; one tested change and removal/recovery | New bounded owner after Q1. |
@@ -90,8 +90,8 @@ The existing team project supplies bounded coordination evidence. It is not the 
 
 ## Agent Skills — required M18, October 16, 2026
 
-The [M18 brief](modules/agent-skills.md) adds one learner-authored workflow with baseline comparison and maintenance evidence. Reuse the existing 智能体指令与技能试验 for an appropriate first slice: live status `later`, no dates, three-hour minimal trial, read October 16. Do not expand that trial silently to the full 12–18h course. Subsequent bounded slices are authoring with fixtures and, separately, evaluation/transfer. Each uses at most 6–9 project hours and fits 21 days at actual capacity; teaching hours come from the primary module allocation. Record shared effort once and choose only the next owner at activation. No new execution checklist or active project is created here.
+The [M18 brief](modules/agent-skills.md) adds one learner-authored workflow with baseline comparison and maintenance evidence. An existing small instruction/skill trial can be the first slice; do not expand it silently to the full 12–18h course. Subsequent bounded slices are authoring with fixtures and, separately, evaluation/transfer. Each uses at most 6–9 project hours and fits 21 days at actual capacity; teaching hours come from the primary module allocation. Record shared effort once and choose only the next owner at activation. No new execution checklist or active project is created here.
 
 ## Model Context Protocol — required M19, October 17, 2026
 
-The [M19 brief](modules/mcp.md) adds one learner-built MCP server over the runner, a two-host comparison and boundary experiments. No Obsidian owner exists yet; create or select one at activation. The natural first slice is MC2 (server with fixtures and tests); MC3/MC4 can form a second. Each uses at most 6–9 project hours and fits 21 days at actual capacity; teaching hours come from the primary module allocation. Count shared runner, M4 Pi trace and M18 evaluation work once. No execution checklist, active project, installation or remote endpoint is created here.
+The [M19 brief](modules/mcp.md) adds one learner-built MCP server over the runner, a two-host comparison and boundary experiments. Create or select a progress owner at activation. The natural first slice is MC2 (server with fixtures and tests); MC3/MC4 can form a second. Each uses at most 6–9 project hours and fits 21 days at actual capacity; teaching hours come from the primary module allocation. Count shared runner, M4 Pi trace and M18 evaluation work once. No execution checklist, active project, installation or remote endpoint is created here.

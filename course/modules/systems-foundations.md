@@ -80,4 +80,4 @@ Python extensions/PyO3 and embedded/no_std are captured electives, without manda
 
 ## Progress ownership
 
-The live overview routes to current work. The existing Linux/coordination note retains its tasks/evidence and links to these expanded M5/M7 criteria; split it before activation rather than enlarging its old 30-hour sprint. M12 has no active execution project yet. Create only the next bounded owner when ready; the optional Rust CLI may supply some R1 evidence if selected, without duplicating its checklist.
+The learner's progress record routes to current work. An existing Linux/coordination owner retains its tasks/evidence and links to these expanded M5/M7 criteria; split it before activation rather than enlarging an old small sprint. M12 has no active execution project until activation. Create only the next bounded owner when ready; an existing small Rust CLI may supply some R1 evidence if selected, without duplicating its checklist.

@@ -4,11 +4,11 @@ Historical/review preparation. The tool-cycle section was completed September 13
 
 Purpose: determine whether the learner can distinguish a model's request from execution by the harness. Planned student effort: 30–45 minutes. No API call or installation.
 
-Student handout: [One tool cycle](handouts/03%20One%20Tool%20Cycle.md). Preserved progress owner: Obsidian `Projects/Archive/terminal-agent-01-agent-loop.md`.
+Student handout: [One tool cycle](<../my-progress/reading-room/03 One Tool Cycle.md>). Preserved progress owner: Obsidian `Projects/Archive/terminal-agent-01-agent-loop.md`.
 
 ## Source checked September 11
 
-`~/Self-learn/learn-claude-code/s01_agent_loop/code.py`, local commit `0dcafa2ae053`, `agent_loop()` lines 87–117. This is a third-party teaching implementation. Inspect the file again if its revision changes.
+`materials/sources/agents/learn-claude-code/s01_agent_loop/code.py`, local commit `0dcafa2ae053`, `agent_loop()` lines 87–117. This is a third-party teaching implementation. Inspect the file again if its revision changes.
 
 ## Teaching sequence
 

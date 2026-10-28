@@ -10,7 +10,7 @@ Project-first, hands-on teaching is now adopted through [I018 and the current pr
 
 The current course is broader than the first product needs. Its 584–907h estimate covers the full program, not the minimum knowledge needed to start. Linking every subject to the project did not change the actual sequence enough: the live Linux project still has a December 28–January 17 window after JS, TS and harness work. M10 also requires advanced foundations, compiler, Kubernetes and inference evidence before program completion.
 
-The live JS/Node, Linux and GUI owners were read through Obsidian CLI. They contain plans and unchecked work, not new mastery evidence. Preserve credited M1 work. Begin with a short programming/Linux diagnostic and teach the missing basics inside the first build. Do not assume that the student must restart programming or can already operate a remote service independently.
+Existing JS/Node, Linux and GUI owners may contain plans and unchecked work; that is not new mastery evidence. Preserve credited M1 work. Begin with a short programming/Linux diagnostic and teach the missing basics inside the first build. Do not assume that the student must restart programming or can already operate a remote service independently.
 
 **Recommendation: choose route A, and introduce a small Rust component in its second slice.** Build a useful node first, extend it to two nodes, then package the proven system as a distribution. A configuration recipe is an early product artifact; it is not the final distribution release.
 

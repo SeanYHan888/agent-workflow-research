@@ -56,6 +56,6 @@ The linked official course/lab pages were inspected September 30, 2026. Our chec
 
 ## Programming paradigms and system-design coverage — updated v1.6
 
-The earlier v1.5 audit found partial FP coverage and basic OOP with optional deeper OOD. The student's subsequent explicit agreement adds required [M16 P1–P4](programming-paradigms.md): functional programming, object-oriented design, type-based modeling and a shared comparative exercise. The prior audit remains in the [v1.5 snapshot](../../archive/2026-09-30-before-programming-paradigms/repo/course/modules/core-foundations.md).
+The earlier v1.5 audit found partial FP coverage and basic OOP with optional deeper OOD. The student's subsequent explicit agreement adds required [M16 P1–P4](programming-paradigms.md): functional programming, object-oriented design, type-based modeling and a shared comparative exercise. The prior audit remains in the [v1.5 snapshot](../../HISTORY.md#2026-09-30-before-programming-paradigms).
 
 Practical system design remains required through M3 contracts/state, M4 ownership/integration, M7 storage/queues/backpressure/consistency/failure, M10 measured defense and M11 design/review practice. Grokking OOD as a particular resource, Effect adoption, full pattern catalogs and interview banks remain optional. Required design outcomes do not require completing every reference.

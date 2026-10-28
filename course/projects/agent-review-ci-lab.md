@@ -13,7 +13,7 @@ Deliver one small, reproducible review-and-repair pipeline and an evidence repor
 - Entry: M11 E1/E2 Git inspection/recovery, E3 behavioral-test readiness, and enough M3/M4 understanding to explain the selected component. Use a disposable exercise repository and synthetic inputs.
 - Allocate **up to six focused hours**, including setup, selected reading, trials and defense: approximately 1h for contract/fixture, 2h for CI/reviewer wiring, 2h for trials/repair and 1h for acceptance/recovery. This replaces the existing six-hour M11 delivery slice within its 12–18h estimate. At three project hours/week it spans two weeks inside the same 15h weekly budget.
 - Reuse existing tests and agent tooling; no new orchestration framework, product feature or multi-provider benchmark. If setup threatens the timebox, narrow the component/case set or reforecast the remaining work; do not mark unexecuted CI complete.
-- Check the live TS agent owner or the later worker owner at activation. Reuse one owner or assign a single bounded successor then. No execution checklist, new date or progress credit is created here.
+- Check the current M3 typed-agent owner or the later worker owner at activation. Reuse one owner or assign a single bounded successor then. No execution checklist, new date or progress credit is created here.
 
 ## Pipeline to build and inspect
 

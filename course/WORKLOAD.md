@@ -14,7 +14,7 @@ Project-first delivery changes the use of existing hours, not the 584–907h pro
 
 The [first runner slices](PROJECTS.md#select-the-next-hands-on-slice) initially use 14–20 of the restart window's maximum 30 core/lab hours. Diagnose the remaining language-course work before claiming it fits. This changes teaching practice immediately without adopting the separate 78–126h alpha proposal or converting advanced subjects to electives. Existing deadlines and October 12 return remain.
 
-The numerical forecast was updated October 4, 2026 for curriculum v1.7 and is retained in v1.8; the prior v1.6 forecast is preserved in the [snapshot](../archive/2026-10-04-before-agentic-linux/README.md). This is a teacher's planning estimate, not measured learner effort or an agreed graduation date. Obsidian owns calendar dates, tasks and actual hours. The [charter](CHARTER.md) and [roadmap](../ROADMAP.md) retain authority over outcomes.
+The numerical forecast was updated October 4, 2026 for curriculum v1.7 and is retained in v1.8; the prior v1.6 forecast is preserved in the [snapshot](../HISTORY.md#2026-10-04-before-agentic-linux). This is a teacher's planning estimate, not measured learner effort or an agreed graduation date. The learner's progress record owns calendar dates, tasks and actual hours. The [charter](CHARTER.md) and [roadmap](../ROADMAP.md) retain authority over outcomes.
 
 ## Estimate the remaining work once
 
@@ -66,7 +66,7 @@ This is a first bottom-up planning envelope, not an empirical prediction. A lowe
 
 The normal **15h week** provides **13h directed work** (10 core/labs + 3 project) and **2h exploration**. Thus 609–943 directed hours imply approximately **47–73 active study weeks** before contingency. A provisional **20% revision/recovery allowance** gives approximately 731–1132 directed hours, or **56–87 active study weeks**, plus explicit breaks. These are planning ranges, not an agreed finish date. The allocation between core and project work can be adjusted explicitly within the total; a project-slot bottleneck can lengthen the calendar.
 
-The confirmed September 28–October 11 relocation/conference break contributes zero required hours and creates no catch-up debt. Required study resumes October 12 under the [September 30 reschedule](../teaching/2026-09-30-RELOCATION-RESCHEDULE.md). Optional conference notes may enter idea intake later; attendance is not automatically course assessment evidence. The old foundation project's last date is not graduation from the expanded program.
+The confirmed September 28–October 11 relocation/conference break contributes zero required hours and creates no catch-up debt. Required study resumes October 12 under the [September 30 reschedule](../my-progress/schedule/2026-09-30-RELOCATION-RESCHEDULE.md). Optional conference notes may enter idea intake later; attendance is not automatically course assessment evidence. The old foundation project's last date is not graduation from the expanded program.
 
 ## Make projects small enough to execute
 
@@ -78,7 +78,7 @@ Use rolling planning: commit the next two study weeks, use a third week only as 
 
 ## Evidence needed at restart
 
-The teacher has inspected the current project logs, not administered a new test. M1 is credited; M2 onward remain unassessed unless the learner supplies newer evidence. Begin with the [45-minute restart diagnostic](../teaching/RESTART-DIAGNOSTIC.md), inspect the actual Boot.dev checkpoint, and revise the remaining-hour estimate. No learner task is completed by preparing this forecast.
+The teacher has inspected the current project logs, not administered a new test. M1 is credited; M2 onward remain unassessed unless the learner supplies newer evidence. Begin with the [45-minute restart diagnostic](../my-progress/RESTART-DIAGNOSTIC.md), inspect the actual Boot.dev checkpoint, and revise the remaining-hour estimate. No learner task is completed by preparing this forecast.
 
 At each weekly review, record actual focused hours, one explanation/artifact and the smallest remaining gap in the owning project. At a milestone assessment, replace that row's forecast with demonstrated work plus a new estimate for unmet criteria. Changes to agreed deadlines still follow the charter.
 

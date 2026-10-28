@@ -60,10 +60,10 @@ Companion readings: [Building effective agents](https://www.anthropic.com/engine
 |---|---|---|
 | [nanocode](https://github.com/1rgs/nanocode) | A compact Python dispatch/loop comparison | Keep the existing pinned Section 3 selection; use only if the mechanism needs reinforcement |
 | [mini-swe-agent](https://github.com/SWE-agent/mini-swe-agent) | Follow the agent, model and execution-environment boundaries | Keep the existing pinned Section 4 trace before larger repositories |
-| Existing [Tau](<~/Self-learn/tau/README.md>) and [Pi](<~/Self-learn/pi/README.md>) | Reuse local Python/TypeScript sources and the planned extension work | Pi is the main TypeScript reference; Tau provides a focused comparison, not a second full implementation |
+| Existing [Tau](<sources/agents/tau/README.md>) and [Pi](<sources/agents/pi/README.md>) | Reuse local Python/TypeScript sources and the planned extension work | Pi is the main TypeScript reference; Tau provides a focused comparison, not a second full implementation |
 | [OpenAI Codex](https://github.com/openai/codex) | Study a production Rust harness and its CLI/integration boundaries | Required deep study after the small-agent foundation and M12 R1 Rust readiness |
 | [OpenCode](https://github.com/anomalyco/opencode) | Compare another open-source agent with the TypeScript route | Optional comparison after Pi/Codex; choose one behavior, such as session ownership or tool execution |
-| User-supplied local Claude Code snapshot | Compare observed implementation with official behavior and the other harnesses | Included as a separate source investigation; see provenance below |
+| Claude Code (official docs, product behavior, [public repository](sources/agents/claude-code/README.md)) | Compare documented and observed behavior with the open-source harnesses | Behavioral comparison; see [Claude Code behavior](#claude-code-behavior) |
 
 Recommended core depth: **mini-swe-agent → Pi → Codex**. Nanocode is a short refresher; OpenCode is a focused alternative. More repositories are useful only when they expose a different design decision. Existing [pinned readings](resource-catalog.md#nanocode-and-mini-swe-agent--added-september-15-2026) remain the anchors for already planned lessons.
 
@@ -83,11 +83,9 @@ Before source lessons, select a revision, record commit and working-tree status,
 
 For each source session record: revision, question, entry point, key functions, state owner, input/output, authority, one failure path and supporting evidence. Trace the same bounded task across agents: read a fixture, make one controlled edit, run a check, report the result.
 
-### Local Claude Code source investigation
+### Claude Code behavior
 
-Found `~/Projects/claude-code/src`, including `main.tsx`, `Tool.ts`, `tools`, `tasks`, `coordinator` and `context`. At inspection on September 28, its root contained `src` and `.DS_Store`, with no Git repository, root README or package manifest. The user describes it as leaked source. Its release, origin, completeness, authenticity and license have not been established; directory names do not establish any of those facts.
-
-Include it as **user-supplied, unverified local source**, separate from official courses and open-source agents. At the first reading session, inventory/hash the selected files and record available provenance. Study short behavioral paths and compare findings with official documentation and observed product behavior. Label conclusions 'this snapshot does X' rather than 'current Claude Code does X.' Read-only architecture study can proceed without claiming the snapshot is buildable. This plan adds the study lane; it does not execute or redistribute the snapshot.
+Study Claude Code through official documentation, observed product behavior and the official public repository ([sources/agents/claude-code](sources/agents/claude-code/README.md)), alongside the open-source harnesses above. One learner's separate, unverified local-snapshot lane is recorded in [my-progress](../my-progress/claude-code-snapshot-lane.md); it is not part of the shared course.
 
 ## Track C: model inference from foundations to serving
 
@@ -136,7 +134,7 @@ For ordinary full-attention caches with equal-length sequences, derive the appro
 
 Useful vLLM starting pages: [benchmarking](https://docs.vllm.ai/en/latest/benchmarking/), [prefix caching](https://docs.vllm.ai/en/latest/features/automatic_prefix_caching/), [quantization](https://docs.vllm.ai/en/latest/features/quantization/), and [parallelism](https://docs.vllm.ai/en/latest/serving/parallelism_scaling/). Use the current documentation index to find Architecture Overview, Paged Attention, CUDA Graphs, speculative decoding and model-runner design for the pinned release.
 
-Local nanochat was found at `~/Projects/nanochat`, HEAD `d5759400f96789d7649e040e5f444790101baa21`; `nanochat/gpt.py` and `nanochat/engine.py` exist. This update verified location/revision, not execution or suitability of all code paths. An existing untracked `.DS_Store` was left in place.
+Local nanochat was found at `~/Projects/nanochat` on September 28 (now pinned at the same commit in [sources/inference/nanochat](sources/inference/nanochat/README.md)), HEAD `d5759400f96789d7649e040e5f444790101baa21`; `nanochat/gpt.py` and `nanochat/engine.py` exist. This update verified location/revision, not execution or suitability of all code paths. An existing untracked `.DS_Store` was left in place.
 
 ### Hardware and measurement progression
 
@@ -160,4 +158,4 @@ Check the current Obsidian evidence and [roadmap](../ROADMAP.md) before assignin
 
 ## Evidence and source status
 
-Official course listings, repository landing pages and selected documentation were checked September 28, 2026. They establish availability and advertised scope, not course completion, universal correctness or a successful local build. The sequence, labs and selection judgments here are our proposed teaching design. Existing nanocode/mini-swe-agent lessons retain their earlier pins; new code traces must record a revision when taught. The local Claude snapshot has unverified provenance. No model downloads, repository updates, installs, paid API calls or training/serving jobs were performed for this planning addition.
+Official course listings, repository landing pages and selected documentation were checked September 28, 2026. They establish availability and advertised scope, not course completion, universal correctness or a successful local build. The sequence, labs and selection judgments here are our proposed teaching design. Existing nanocode/mini-swe-agent lessons retain their earlier pins; new code traces must record a revision when taught. No model downloads, repository updates, installs, paid API calls or training/serving jobs were performed for this planning addition.

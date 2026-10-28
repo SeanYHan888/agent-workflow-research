@@ -132,10 +132,10 @@ Recommendation: study selected system-design concepts alongside the agent implem
 
 | Resource | Observed contents | Role in this project |
 |---|---|---|
-| [System Design Primer](<~/Self-learn/system-design-primer/README.md>) | Local `donnemartin/system-design-primer`, commit `ae9bbd7`; explanations, tradeoffs, interview exercises and solutions | Main system-design reference: requirements, latency/throughput, storage, queues, backpressure, communication |
-| [System Design 101](<~/Self-learn/system-design-101/README.md>) | Local `ByteByteGoHq/system-design-101`, commit `b28380a`; visual guide index and local Markdown under `data/guides/` | Short visual review after learning a concept; use retry, delivery, idempotency and observability guides |
+| [System Design Primer](<sources/design/system-design-primer/README.md>) | Local `donnemartin/system-design-primer`, commit `ae9bbd7`; explanations, tradeoffs, interview exercises and solutions | Main system-design reference: requirements, latency/throughput, storage, queues, backpressure, communication |
+| [System Design 101](<sources/design/system-design-101/README.md>) | Local `ByteByteGoHq/system-design-101`, commit `b28380a`; visual guide index and local Markdown under `data/guides/` | Short visual review after learning a concept; use retry, delivery, idempotency and observability guides |
 | [SDE roadmap: System Design](https://github.com/aasthas2022/SDE-Interview-and-Prep-Roadmap/tree/main/System%20Design) | REST and microservices notes; Resources folder lists DDIA and Alex Xu PDFs | Supplemental question/reference bank. Use REST/interface questions when relevant; defer a broad microservices curriculum |
-| [You Don't Know JS Yet](<~/Self-learn/You-Dont-Know-JS/README.md>) | Local `getify/You-Dont-Know-JS`, commit `044120e`, second edition | Targeted depth alongside Boot.dev; not a replacement language curriculum |
+| [You Don't Know JS Yet](<sources/javascript/you-dont-know-js/README.md>) | Local `getify/You-Dont-Know-JS`, commit `044120e`, second edition | Targeted depth alongside Boot.dev; not a replacement language curriculum |
 
 Audit covered indexes and representative local guides, not every page or the linked PDFs. ByteByteGo's Markdown exists locally, but many embedded illustrations use remote asset URLs, so the checkout is not necessarily a complete offline visual library. Use the learning sources for explanations; verify implementation-specific behavior against the relevant official API/library documentation when building.
 
@@ -150,7 +150,7 @@ Audit covered indexes and representative local guides, not every page or the lin
 | Linux operation | ByteByteGo: logging, tracing, metrics; existing Linux security/process labs | Trace one task across coordinator and worker; diagnose a timeout from logs; state which files, credentials, and processes each worker can access |
 | Final review | Revisit the requirements and measured bottlenecks | Present the design, one failure/recovery demonstration, and the tradeoffs you chose. Explain what would need to change for 2 workers versus 20 |
 
-Local guide starting points: [retry strategies](<~/Self-learn/system-design-101/data/guides/how-do-we-retry-on-failures.md>), [delivery semantics](<~/Self-learn/system-design-101/data/guides/delivery-semantics.md>), [idempotency](<~/Self-learn/system-design-101/data/guides/top-6-cases-to-apply-idempotency.md>), [observability](<~/Self-learn/system-design-101/data/guides/logging-tracing-metrics.md>).
+Local guide starting points: [retry strategies](<sources/design/system-design-101/data/guides/how-do-we-retry-on-failures.md>), [delivery semantics](<sources/design/system-design-101/data/guides/delivery-semantics.md>), [idempotency](<sources/design/system-design-101/data/guides/top-6-cases-to-apply-idempotency.md>), [observability](<sources/design/system-design-101/data/guides/logging-tracing-metrics.md>).
 
 These are proposed design exercises, not claims that the initial implementation requires a message broker, database server, or microservices. Use the simplest design that meets the task. Large-scale feeds, CDNs, multi-region consensus, deep sharding, and exhaustive interview question banks are optional future study.
 
@@ -160,15 +160,15 @@ Produce a small architecture drawing, a task-state description, an adapter contr
 
 Keep Boot.dev JavaScript → TypeScript as the main sequence. Pair selected reading with a small example you can explain:
 
-1. **After basic JS syntax:** [Get Started](<~/Self-learn/You-Dont-Know-JS/get-started/README.md>), chapters 1–3. Use chapter 2 as a review where it overlaps Boot.dev.
-2. **When writing callbacks and modules:** [Scope & Closures](<~/Self-learn/You-Dont-Know-JS/scope-closures/README.md>), chapters 1–3, 5, 7–8. Trace captured variables in a worker callback and explain module state; consult chapter 6 if scope exposure is unclear.
-3. **When an example requires it:** [Objects & Classes](<~/Self-learn/You-Dont-Know-JS/objects-classes/README.md>), especially chapter 4 on `this`; selected coercion sections from [Types & Grammar](<~/Self-learn/You-Dont-Know-JS/types-grammar/README.md>). JavaScript runtime types/coercion are different from TypeScript's static type system.
+1. **After basic JS syntax:** [Get Started](<sources/javascript/you-dont-know-js/get-started/README.md>), chapters 1–3. Use chapter 2 as a review where it overlaps Boot.dev.
+2. **When writing callbacks and modules:** [Scope & Closures](<sources/javascript/you-dont-know-js/scope-closures/README.md>), chapters 1–3, 5, 7–8. Trace captured variables in a worker callback and explain module state; consult chapter 6 if scope exposure is unclear.
+3. **When an example requires it:** [Objects & Classes](<sources/javascript/you-dont-know-js/objects-classes/README.md>), especially chapter 4 on `this`; selected coercion sections from [Types & Grammar](<sources/javascript/you-dont-know-js/types-grammar/README.md>). JavaScript runtime types/coercion are different from TypeScript's static type system.
 
 The author's current second-edition index labels Objects & Classes draft-stable, Types & Grammar a rough draft, and Sync & Async / ES.Next & Beyond canceled. The local async folder contains placeholders. Use Boot.dev for promises and the event loop; add small Node.js async, streaming and cancellation exercises using official documentation. The generated agent-learning chapter is not a required source. [Author's edition status](https://github.com/getify/You-Dont-Know-JS).
 
 ### Schedule status
 
-The earlier additive hour estimates and calendar assignments are superseded. They are preserved in [the historical research snapshot](../archive/2026-09-10-before-course-redesign/learning-resources-research.md). Resource quantity does not determine course scope or duration. The earlier 10-hour/week, 160-hour forecast is historical. The September 28 charter now provides 15 hours/week for the expanded program, with no agreed overall finish date; source quantity does not impose reading time.
+The earlier additive hour estimates and calendar assignments are superseded. They are preserved in [the historical research snapshot](../HISTORY.md#2026-09-10-before-course-redesign). Resource quantity does not determine course scope or duration. The earlier 10-hour/week, 160-hour forecast is historical. The September 28 charter now provides 15 hours/week for the expanded program, with no agreed overall finish date; source quantity does not impose reading time.
 
 ## GUI and team projects integrated — September 10, 2026
 
@@ -181,7 +181,7 @@ These are curriculum decisions based on a focused primary-source check, not hand
 
 The user selected an existing-tools team first. Reuse earlier adapter/worktree/recovery labs; test a coordinator-led feature with two writers and a review pass, then repeat a comparable trial. Record candidate revision, integrated checks, unresolved findings, human interventions and review time. Full custom orchestration infrastructure and distributed fleets require a later project.
 
-Historical foundation allocations were GUI 10 hours and existing-tool team 30 hours. Preserve their evidence and revisit scope at the approved reforecast; they are not estimates for the enlarged milestones. Obsidian owns current dates and task-completion states. The roadmap now owns the four-stage program.
+Historical foundation allocations were GUI 10 hours and existing-tool team 30 hours. Preserve their evidence and revisit scope at the approved reforecast; they are not estimates for the enlarged milestones. The learner's progress record owns current dates and task-completion states. The roadmap now owns the four-stage program.
 
 ## nanocode and mini-swe-agent — added September 15, 2026
 
