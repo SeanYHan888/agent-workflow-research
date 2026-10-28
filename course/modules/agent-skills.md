@@ -19,7 +19,7 @@ Give the existing agent a repeatable way to inspect a failed local runner job an
 
 | Block | Learner build or investigation | Evidence | Hours |
 |---|---|---|---:|
-| AS1 — Select and dissect | Compare two real skills for one runner task; trace metadata, instructions, references and tool assumptions. Explain skill vs repository instruction vs tool/MCP connector vs plugin packaging. | Annotated selection and one relevant/non-relevant trigger pair; predict what the host loads. | 2–3 |
+| AS1 — Select and dissect | Compare two real skills for one runner task; trace metadata, instructions, references and tool assumptions. Explain skill vs repository instruction vs tool/MCP connector vs plugin packaging; [M19](mcp.md) teaches MCP itself. | Annotated selection and one relevant/non-relevant trigger pair; predict what the host loads. | 2–3 |
 | AS2 — Author one bounded skill | Write a focused `SKILL.md`, explicit inputs/output and failure behavior; separate supporting references. Add a helper script only if deterministic work warrants it. | Learner-authored package, valid metadata/paths, one normal case and one missing-input case. | 4–6 |
 | AS3 — Evaluate and revise | Compare no skill, initial skill and one revision on the same frozen task set. Inspect false activation, missed activation and wrong/confident answers. | Per-case traces and scoring; repeated trials on ambiguous cases; an explanation of improvement or lack of it. | 4–6 |
 | AS4 — Maintain and transfer | Pin provenance, inspect an upstream change, adapt one host-specific assumption, then demonstrate disable/rollback. | Compatibility note, version/change record and one unseen diagnosis or trigger change defended by the learner. | 2–3 |

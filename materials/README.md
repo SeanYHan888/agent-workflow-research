@@ -27,6 +27,7 @@ The university selections, Claude materials and source-code studies overlap. Reu
 | M8 | Official Kubernetes concepts/tasks after Linux, networking and containers | [Systems reading map](systems-reading-map.md); scoped service deployment/recovery |
 | M9 | Selected CS336, FlashAttention/PagedAttention papers, vLLM documentation/source; C5–C11 | [Advanced selections](advanced-study.md); controlled experiments, hardware constraints stated |
 | M17 | [T3 Code and Omarchy Quattro source map](agentic-linux.md) | Required case studies: request/service ownership, shell/IPC, reversible change and comparison; T1 reuses M4, T3OS waits for published sources |
+| M19 | [MCP course/source map](../course/modules/mcp.md), 2026-07-28 specification and schema, official TypeScript SDK/Inspector, Pi built-in MCP sources; Claude Academy A7/A8 | Build and trace one narrow server; compare hosts and alternatives. Extensions are optional depth. |
 | M18 | [Agent Skills course/source map](../course/modules/agent-skills.md), official format specification and [five-repository review](../research/agent-skills-review-2026-10-16.md) | Select one relevant workflow; author, evaluate and maintain it. Other collections are comparisons, not mandatory installations or completion lists. |
 | M10 | [Distribution release brief](../course/projects/agentic-linux-distribution.md), C12 reliable serving, CS329Z data/evaluation/safety selections and prior coordination/runtime materials | Integrate and defend measured behavior; no new catalog to finish |
 

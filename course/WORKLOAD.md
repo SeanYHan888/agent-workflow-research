@@ -1,5 +1,9 @@
 # Workload forecast and scheduling method
 
+## October 17 MCP addition — v1.10
+
+Required [M19](modules/mcp.md) adds **13–18 directed hours**, taking **596–925 → 609–943h**. MC1 trace 2–3h, MC2 server 5–7h, MC3 host comparison 3–4h, MC4 boundary experiments 3–4h. Claude Academy A7/A8 are now charged here; the MCP chapter of the A6 API course, already reserved inside M3/M4, counts once where it overlaps with MC1. Reuse the runner, the M4 Pi trace and M18 evaluation fixtures without charging them again. No new weekly lane, deadline or owner; the 15h cap is retained and the temporary lower live allocation still applies.
+
 ## October 16 agent-skills addition — v1.9
 
 Required [M18](modules/agent-skills.md) adds **12–18 directed hours**, taking **584–907 → 596–925h**. Existing M1–M17 allocations and credit remain. AS1–AS4 includes preparation, experiments and assessment; do not add the existing three-hour skill trial again if it demonstrates overlapping criteria. Later blocks consume future core/lab or project capacity and displace another block in sequence; no new weekly lane or changed deadline. The 15h charter cap is retained. The live overview currently allocates only 10h/week to the course October 16–29, so the full-capacity week figures below are scenarios, not the live calendar. The October 4/6 estimates below preserve their historical context.
@@ -36,7 +40,8 @@ The archived tool-cycle assessment credits M1. JS/Node has no subsequent assesse
 | M16 | 24–36 | P1–P4 functional programming, OOD, types/Rust transfer and comparative design; additional depth beyond already-budgeted language syntax. |
 | M17 | 24–36 | T2 Linux service, Q1 Quattro architecture, Q2 reversible extension and C1 comparison, each 6–9h. T1 reuses existing M4 GUI work. |
 | M18 | 12–18 | AS1 selection/anatomy 2–3h, AS2 authoring 4–6h, AS3 evaluation 4–6h, AS4 maintenance/transfer 2–3h. Existing M11/M4 instruction and genuinely shared experiments count once. |
-| **Total** | **596–925** | Directed study and practical work, before contingency and optional exploration. |
+| M19 | 13–18 | MC1 protocol trace, MC2 learner-built server, MC3 two-host and CLI/skill comparison, MC4 boundary experiments; includes A7/A8. |
+| **Total** | **609–943** | Directed study and practical work, before contingency and optional exploration. |
 
 This is a first bottom-up planning envelope, not an empirical prediction. A lower bound assumes substantial reuse and quick prerequisite mastery. The upper bound is not a guarantee: unfamiliar mathematics, full resource completion, unavailable hardware or repeated assessment gaps can exceed it. Update the affected row using observed pace, not arbitrary compression.
 
@@ -59,7 +64,7 @@ This is a first bottom-up planning envelope, not an empirical prediction. A lowe
 
 ## Capacity and uncertainty
 
-The normal **15h week** provides **13h directed work** (10 core/labs + 3 project) and **2h exploration**. Thus 596–925 directed hours imply approximately **46–72 active study weeks** before contingency. A provisional **20% revision/recovery allowance** gives approximately 716–1110 directed hours, or **55–86 active study weeks**, plus explicit breaks. These are planning ranges, not an agreed finish date. The allocation between core and project work can be adjusted explicitly within the total; a project-slot bottleneck can lengthen the calendar.
+The normal **15h week** provides **13h directed work** (10 core/labs + 3 project) and **2h exploration**. Thus 609–943 directed hours imply approximately **47–73 active study weeks** before contingency. A provisional **20% revision/recovery allowance** gives approximately 731–1132 directed hours, or **56–87 active study weeks**, plus explicit breaks. These are planning ranges, not an agreed finish date. The allocation between core and project work can be adjusted explicitly within the total; a project-slot bottleneck can lengthen the calendar.
 
 The confirmed September 28–October 11 relocation/conference break contributes zero required hours and creates no catch-up debt. Required study resumes October 12 under the [September 30 reschedule](../teaching/2026-09-30-RELOCATION-RESCHEDULE.md). Optional conference notes may enter idea intake later; attendance is not automatically course assessment evidence. The old foundation project's last date is not graduation from the expanded program.
 

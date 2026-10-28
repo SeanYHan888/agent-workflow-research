@@ -10,6 +10,7 @@ A project-first course for learning to build and operate a safe, lightweight age
 | Estimated effort, overlap and capacity | [Workload forecast](course/WORKLOAD.md) |
 | Teaching agreement and how the course adapts | [Charter](course/CHARTER.md) |
 | Live schedule, tasks and learning evidence | Obsidian course overview |
+| Connect, expose and secure agent tools with MCP | [Model Context Protocol — M19](course/modules/mcp.md) |
 | Design, evaluate and maintain reusable agent skills | [Agent Skills — M18](course/modules/agent-skills.md) · [Five-repository review](research/agent-skills-review-2026-10-16.md) |
 | Git/GitHub, PRs, reviews, ADRs, TDD and mistake recovery | [Engineering practice — M11](course/modules/engineering-practice.md) |
 | RabbitMQ, Kafka and reliable messaging | [Message brokers — M7](course/modules/message-brokers.md) |

@@ -46,6 +46,7 @@ Compare a small headless node with an optional richer client or controller. Deci
 | M15 — Discrete mathematics | State invariants, reason about retries and ownership, and analyze failure histories and probability assumptions. |
 | M16 — Programming design | Compare pure logic, effects, objects and types in the shared task/service design. Defend the boundaries used. |
 | M18 — Agent Skills | Package one useful runner/service workflow with explicit scope, evidence, evaluation and rollback. Reuse the tested behavior in the distribution where justified; do not require a marketplace or every reviewed skill. |
+| M19 — Model Context Protocol | Expose node job state and gated controls to MCP hosts through a narrow server, using `ssh` stdio where suitable. Decide with evidence whether the release ships an MCP surface, which transport and which enforced limits; keep it inside the measured resource budget. |
 | M17 — T3 Code and Omarchy Quattro | Study agent control and desktop integration, then identify what to reuse, adapt or omit for a small remote node. |
 
 ## Project-first course — adopted October 6, 2026

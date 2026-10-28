@@ -91,3 +91,7 @@ The existing team project supplies bounded coordination evidence. It is not the 
 ## Agent Skills — required M18, October 16, 2026
 
 The [M18 brief](modules/agent-skills.md) adds one learner-authored workflow with baseline comparison and maintenance evidence. Reuse the existing 智能体指令与技能试验 for an appropriate first slice: live status `later`, no dates, three-hour minimal trial, read October 16. Do not expand that trial silently to the full 12–18h course. Subsequent bounded slices are authoring with fixtures and, separately, evaluation/transfer. Each uses at most 6–9 project hours and fits 21 days at actual capacity; teaching hours come from the primary module allocation. Record shared effort once and choose only the next owner at activation. No new execution checklist or active project is created here.
+
+## Model Context Protocol — required M19, October 17, 2026
+
+The [M19 brief](modules/mcp.md) adds one learner-built MCP server over the runner, a two-host comparison and boundary experiments. No Obsidian owner exists yet; create or select one at activation. The natural first slice is MC2 (server with fixtures and tests); MC3/MC4 can form a second. Each uses at most 6–9 project hours and fits 21 days at actual capacity; teaching hours come from the primary module allocation. Count shared runner, M4 Pi trace and M18 evaluation work once. No execution checklist, active project, installation or remote endpoint is created here.
